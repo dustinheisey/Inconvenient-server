@@ -1,0 +1,8 @@
+{
+    "name": "Exploration",
+    "description": "I've found stories from the past, and aura in the atmosphere, but this only raises more questions. I have to learn more.",
+    "icon": "minecraft:spyglass",
+    "sortnum": 2,
+    "parent": "patchouli:journal_entries",
+    "secret": true
+}

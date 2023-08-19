@@ -1,0 +1,39 @@
+{
+    "name": "From the Undergarden",
+    "icon": "gateways:gate_pearl{gateway:'gateways:forgotten_gate'}",
+    "category": "patchouli:bestiary",
+    "sortnum": 1,
+    "secret": true,
+    "advancement": "im:gateways/forgotten",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The following animals have started appearing in the overworld ever since I opened the gateway to The Undergarden:"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:bat",
+            "scale": 0.75
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:parrot",
+            "scale": 0.75
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:ocelot",
+            "scale": 0.75
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:panda",
+            "scale": 0.75
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:creeper",
+            "scale": 0.75
+        }
+    ]
+}

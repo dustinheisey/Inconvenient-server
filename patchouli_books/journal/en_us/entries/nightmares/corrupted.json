@@ -1,0 +1,22 @@
+{
+    "name": "Wealth",
+    "icon": "endrem:corrupted_eye",
+    "category": "patchouli:nightmares",
+    "sortnum": 4,
+    "secret": true,
+    "advancement": "im:eyes/corrupted",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "I am about to leave my office and I have been meaning to get some exercise, so I think I will walk home today. I exit the building and walk along the sidewalk in the direction of my home. This is unfamiliar for me as I haven't walked home in years.$(br2)The stunning high-rises in downtown, where I work, are quickly replaced with dilapidated three-story "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "apartment buildings as I walk. I begin to feel unsafe and I check my pockets to make sure everything is in place.$(br2)As I walk further, the apartments are replaced with a large field with hundreds of tents and scores of homeless people clustering around them. I feel sympathy for these people, but not empathy as I cannot fully understand how they feel. Our experiences are so vastly different that it's unproductive for me to try to understand. It's better to "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "ignore them and walk faster.$(br2)The environment quickly returns to the opulence I am used to, and I breathe a sigh of relief. I reach the gate to my home, my butler opens it for me and escorts me to my mansion. I walk inside and collapse on the couch. This walk was hard work and made me uncomfortable. I don't think I will do this again any time soon."
+        }
+    ]
+}

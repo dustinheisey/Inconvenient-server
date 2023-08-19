@@ -1,0 +1,24 @@
+{
+    "name": "From the Nether",
+    "icon": "gateways:gate_pearl{gateway:'gateways:hellish_gate'}",
+    "category": "patchouli:bestiary",
+    "sortnum": 4,
+    "secret": true,
+    "advancement": "im:gateways/hellish",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The following animals have started appearing in the overworld ever since I opened the gateway to The Nether:"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:pig",
+            "scale": 0.75
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:zombified_piglin",
+            "scale": 0.75
+        }
+    ]
+}

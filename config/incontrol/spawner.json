@@ -1,0 +1,56 @@
+[
+    {
+        "mob": ["minecraft:zombie", "minecraft:husk"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+            "minimum": 2,
+            "maximum": 5,
+            "groupdistance": 3
+        }
+    },
+    {
+        "mob": ["minecraft:evoker"],
+        "persecond": 0.25,
+        "attempts": 5,
+        "amount": {
+            "maximum": 1
+        }
+    },
+    {
+        "mob": ["minecraft:vindicator"],
+        "persecond": 1.0,
+        "attempts": 10,
+        "amount": {
+            "minimum": 1,
+            "maximum": 3
+        }
+    },
+    {
+        "mob": ["minecraft:villager"],
+        "persecond": 1.0,
+        "attempts": 10,
+        "amount": {
+            "minimum": 1,
+            "maximum": 3
+        }
+    },
+    {
+        "mob": ["minecraft:ravager"],
+        "persecond": 1.0,
+        "attempts": 10,
+        "amount": {
+            "minimum": 1,
+            "maximum": 2
+        }
+    },
+    {
+        "mob": ["minecraft:pillager"],
+        "persecond": 1.0,
+        "attempts": 10,
+        "amount": {
+            "minimum": 1,
+            "maximum": 3
+        }
+    }
+]

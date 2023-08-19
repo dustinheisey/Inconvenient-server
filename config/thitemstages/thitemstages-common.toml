@@ -1,0 +1,7 @@
+
+["General Options"]
+	#List all the stages that you want to have.
+	stages = ["stage_1", "stage_2", "stage_3", "stage_4", "stage_5", "stage_5_1", "stage_5_2", "stage_6", "stage_7", "stage_7_1", "stage_7_2", "stage_8", "dimension_everbright", "dimension_undergarden", "dimension_everdawn", "dimension_twilight", "dimension_nether", "dimension_blueleaf", "dimension_bumblezone"]
+	#Set this value to 'true' whenever you're having issues, this will allow the mod to output everything it tries to do in the log.
+	debugMode = false
+

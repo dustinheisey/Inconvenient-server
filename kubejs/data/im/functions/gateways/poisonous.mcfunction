@@ -1,0 +1,1 @@
+gamestage add @s gateway_poisonous

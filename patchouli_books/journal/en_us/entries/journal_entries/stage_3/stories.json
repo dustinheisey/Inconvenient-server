@@ -1,0 +1,17 @@
+{
+    "name": "Stories",
+    "icon": "kubejs:lost_story_twilight",
+    "category": "patchouli:journal_entries/stage_3",
+    "secret": true,
+    "advancement": "im:stage_3/stories",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "I have read multiple stories from many places all talking about a single cataclysm, occurring slowly, centuries before now. I have also had multiple nightmares of someone taking great actions to preserve their position in society, that impact the world in the same ways mentioned in the stories. $(br2)I can only wonder if these nightmares are actually "
+        },
+        {
+            "type": "patchouli:text",
+            "text": "memories, and if I had some large part to play in this chaos. If so, I must learn the true causes of these events, so that I can avoid making the same mistakes again."
+        }
+    ]
+}

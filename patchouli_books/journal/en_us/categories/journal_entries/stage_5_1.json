@@ -1,0 +1,8 @@
+{
+    "name": "Agriculture",
+    "description": "I believe the warnings, and know that if I continue developing my technology, the world will suffer. I will find a natural path forward.",
+    "icon": "minecraft:honeycomb",
+    "sortnum": 4,
+    "parent": "patchouli:journal_entries",
+    "secret": true
+}

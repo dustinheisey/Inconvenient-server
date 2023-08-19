@@ -1,0 +1,11 @@
+
+/logs
+/saves
+/crash-reports
+/lightspeed-cache
+/XaeroWaypoints
+/XaeroWorldMap
+.DS_Store
+kubejs/exported
+kubejs/probe
+config/jei/world

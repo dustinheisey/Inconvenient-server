@@ -1,0 +1,8 @@
+{
+    "name": "Questions",
+    "description": "Now that I am safe, I can begin to figure out who I am and what happened here.",
+    "icon": "naturesaura:gold_leaf",
+    "sortnum": 1,
+    "parent": "patchouli:journal_entries",
+    "secret": true
+}

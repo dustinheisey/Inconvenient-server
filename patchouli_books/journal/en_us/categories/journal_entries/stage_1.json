@@ -1,0 +1,8 @@
+{
+    "name": "Survival",
+    "description": "I woke up confused and with no memory of my prior life. All I know is that I am hungry and its very hot.",
+    "icon": "paragon_textiles:plant_fibers",
+    "sortnum": 0,
+    "parent": "patchouli:journal_entries",
+    "secret": true
+}
