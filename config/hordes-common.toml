@@ -33,27 +33,27 @@
 
 [Infection]
 	#Set to false to completely disable mob infection and anything related to it.
-	enableMobInfection = true
+	enableMobInfection = false
 	#Can villagers be infected.
-	infectVillagers = true
+	infectVillagers = false
 	#Chance out of 100 for a villager to get infected
-	villagerInfectChance = 85
+	villagerInfectChance = 0
 	#Can players be infected.
 	infectPlayers = false
 	#Whether later levels of infected should slightly slow movement speed? 
-	infectSlowness = true
+	infectSlowness = false
 	#Whether later levels of infected should depleet hunger quicker? 
-	infectHunger = true
+	infectHunger = false
 	#Chance out of 100 for a player to get infected
-	playerInfectChance = 75
+	playerInfectChance = 0
 	#How long do each of the 4 effect phases last for before the next phase is activated?
 	ticksForEffectStage = 6000
 	#A list of entities that can be infected, followed by the chance out of 100 to infect, then the entity to convert them to, entities can have nbt attached to them.(e.g. minecraft:villager-85-minecraft:zombie_villager{ActiveEffects:[{Id:12,Amplifier:0,Duration:10000}]}), note: players and villagers have special code accociated with them, and should not be in this list
 	customConversionList = ["minecraft:horse-65-minecraft:zombie_horse"]
 	#Do entities on the infectionEntities list automatically target entities on the infectionConversionList
-	infectionEntitiesAggroConversions = true
+	infectionEntitiesAggroConversions = false
 	#Do players who die to infection spawn a zombie?
-	infectionSpawnsZombiePlayers = true
+	infectionSpawnsZombiePlayers = false
 	#What factor should the infection potion effect timer be multiplied by for each cured infection? (Resets on death, set to 1 to disable scaling)
 	effectStageTickReduction = 0.95
 
