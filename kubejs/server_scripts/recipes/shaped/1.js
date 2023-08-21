@@ -7,6 +7,11 @@ onEvent("recipes", (event) => {
     })
     .modifyOutputs([
       {
+        output: "cold_sweat:boiler",
+        pattern: ["aaa", "aba", "aaa"],
+        key: { a: "#forge:cobblestone", b: "rankine:smouldering_tinder_conk" },
+      },
+      {
         output: "4x thirst:clay_bowl",
         pattern: ["aaa"],
         key: { a: "#forge:clay_balls" },
@@ -80,6 +85,23 @@ onEvent("recipes", (event) => {
         key: {
           a: "#forge:stone",
           b: "#forge:rods/wooden",
+        },
+      },
+      {
+        output: "antiqueatlas:empty_antique_atlas",
+        pattern: ["aaa", "abc", "ccc"],
+        key: {
+          a: "minecraft:leather",
+          b: "endrem:undead_soul",
+          c: "farmersdelight:canvas",
+        },
+      },
+      {
+        output: `rankine:altimeter`,
+        pattern: ["aaa", "aba", "aaa"],
+        key: {
+          a: "minecraft:copper_ingot",
+          b: "ecofriendly:smelted_iron_can_ym",
         },
       },
       {
@@ -159,11 +181,6 @@ onEvent("recipes", (event) => {
         output: "kubejs:stitched_hide",
         pattern: [" a ", "aaa", " a "],
         key: { a: "minecraft:rotten_flesh" },
-      },
-      {
-        output: "kubejs:stitched_hide",
-        pattern: ["aa"],
-        key: { a: "biomancy:living_flesh" },
       },
       {
         output: "rankine:stick_block",

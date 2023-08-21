@@ -138,5 +138,6 @@
         "hexerei:yellow_dock_bush": "minecraft:air",
         "minecraft:cobweb": "minecraft:air",
         "minecraft:cocoa": "minecraft:air",
+        "minecraft:bee_nest": "minecraft:air",
 	}
 }

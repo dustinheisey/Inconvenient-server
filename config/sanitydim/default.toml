@@ -52,10 +52,10 @@
 		#Supports boolean block state properties (can be omitted together with brackets)
 		#Prefix with TAG_ and follow with a tag registry name to define all blocks with the tag
 		#NOTE: not everything may work correctly with any configuration, e.g. multiblocks like tall flowers and beds; needs testing
-		blocks = ["minecraft:campfire[lit=true];0.1;4"]
+		blocks = ["minecraft:campfire[lit=true];0.1;4", "cold_sweat:hearth;0.5;30"]
 		#Players will gain this amount of sanity per second while being in the light
 		#Range: -100.0 ~ 100.0
-		lightness = 0.0
+		lightness = 0.15
 		#Minimum light level considered to be lightness (inclusive)
 		#Range: 0 ~ 15
 		lightness_threshold = 4
@@ -205,11 +205,11 @@
 		#Blood tendrils overlay configuration
 		[sanity.client.blood_tendrils]
 			#Whether to render blood tendrils overlay
-			render = true
+			render = false
 			#Whether to flash blood tendrils overlay upon losing sanity in a short burst
-			short_burst_flash = true
+			short_burst_flash = false
 			#Whether to render blood tendrils overlay when passively losing sanity
-			render_passive = true
+			render_passive = false
 
 	#Entities configuration
 	[sanity.entity]

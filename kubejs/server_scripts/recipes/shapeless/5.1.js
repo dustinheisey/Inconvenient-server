@@ -6,7 +6,7 @@ onEvent("recipes", (event) => {
         .modifyOutputs([
             {
                 output: "productivebees:bee_nest_diamond_helmet",
-                inputs: ["minecraft:bee_nest", "botania:terrasteel_helmet"],
+                inputs: ["minecraft:beehive", "botania:terrasteel_helmet"],
             },
         ])
         .add([
