@@ -51,7 +51,7 @@
 	#A list of entities that can be infected, followed by the chance out of 100 to infect, then the entity to convert them to, entities can have nbt attached to them.(e.g. minecraft:villager-85-minecraft:zombie_villager{ActiveEffects:[{Id:12,Amplifier:0,Duration:10000}]}), note: players and villagers have special code accociated with them, and should not be in this list
 	customConversionList = ["minecraft:horse-65-minecraft:zombie_horse"]
 	#Do entities on the infectionEntities list automatically target entities on the infectionConversionList
-	infectionEntitiesAggroConversions = false
+	infectionEntitiesAggroConversions = true
 	#Do players who die to infection spawn a zombie?
 	infectionSpawnsZombiePlayers = false
 	#What factor should the infection potion effect timer be multiplied by for each cured infection? (Resets on death, set to 1 to disable scaling)

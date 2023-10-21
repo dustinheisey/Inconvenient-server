@@ -22,6 +22,7 @@ onEvent("tags.items", (event) => {
     "rocks",
     "death_compass",
     "gravestone",
+    "depthmeter",
   ]);
   stageMods("stage_2", [
     "farmersdelight",

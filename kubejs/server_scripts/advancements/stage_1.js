@@ -446,10 +446,10 @@ onEvent("server.datapack.high_priority", (event) => {
                                   "Process the malachite into copper",
                                 children: [
                                   {
-                                    item: "rankine:altimeter",
-                                    title: "Altimeter",
+                                    item: "depthmeter:depthmeter",
+                                    title: "Depthmeter",
                                     description:
-                                      "Craft an altimeter to help you find ores underground",
+                                      "Craft a depthmeter to help you find ores underground",
                                   },
                                 ],
                               },
@@ -463,7 +463,7 @@ onEvent("server.datapack.high_priority", (event) => {
                             children: [
                               {
                                 item: "rankine:tin_ingot",
-                                title: "Cassiterite",
+                                title: "Tin Ingot",
                                 description: "Process the cassiterite into tin",
                               },
                             ],

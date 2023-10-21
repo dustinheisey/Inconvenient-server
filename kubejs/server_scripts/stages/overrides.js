@@ -811,7 +811,6 @@ onEvent("tags.items", (event) => {
   });
   overrideStages("rankine", {
     stage_1: [
-      "rankine:altimeter",
       "rankine:calcite",
       "rankine:bronze_ladder",
       "rankine:cedar_leaves",
@@ -939,6 +938,7 @@ onEvent("tags.items", (event) => {
       "rankine:dark_oak_leaf_litter",
     ],
     stage_2: [
+      "rankine:altimeter",
       "rankine:porcelain_clay_ball",
       "rankine:porcelain",
       "rankine:porcelain_clay",

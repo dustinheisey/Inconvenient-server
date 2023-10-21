@@ -1,0 +1,68 @@
+{
+  "name": "Overworld Ores",
+  "icon": "rankine:malachite",
+  "category": "patchouli:handbook",
+  "secret": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Different ores can be found in specific biomes at varying depths below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "rankine:malachite"
+      },
+      "text": "Malachite: Found in Swamps, between X1 to X2 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "rankine:cassiterite"
+      },
+      "text": "Cassiterite: Found in Taiga, between X3 to X4 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "rankine:graphite"
+      },
+      "text": "graphite: Found in Extreme Hills, between X1 to X2 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "rankine:galena"
+      },
+      "text": "Galena: Found in Swamps, between X5 to X6 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "rankine:acanthite"
+      },
+      "text": "Acanthite: Found in Desert, between X7 to X8 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "rankine:kaolin"
+      },
+      "text": "Kaolin: Found in Desert, between X9 to X10 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "mekanism:salt"
+      },
+      "text": "Salt: Found in Swamps, between X1 to X2 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "minecraft:amethyst_cluster"
+      },
+      "text": "Amethyst: Found in Swamps, between X1 to X2 blocks below sea level."
+    }
+  ]
+}

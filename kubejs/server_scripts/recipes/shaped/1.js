@@ -97,7 +97,7 @@ onEvent("recipes", (event) => {
         },
       },
       {
-        output: `rankine:altimeter`,
+        output: "depthmeter:depthmeter",
         pattern: ["aaa", "aba", "aaa"],
         key: {
           a: "minecraft:copper_ingot",

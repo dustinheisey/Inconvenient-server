@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:360
+ignoreUpdate:365
 settingsButton:false
 minimapItemId:explorerscompass:explorerscompass
 allowWrongWorldTeleportation:false
@@ -7,6 +7,7 @@ differentiateByServerAddress:true
 debugEntityIcons:false
 debugEntityVariantIds:false
 radarHideInvisibleEntities:true
+allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:true
 minimap:true

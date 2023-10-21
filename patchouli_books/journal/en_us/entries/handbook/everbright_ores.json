@@ -1,0 +1,61 @@
+{
+  "name": "Everbright Ores",
+  "icon": "blue_skies:aquite",
+  "category": "patchouli:handbook",
+  "secret": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Different ores can be found in specific biomes at varying depths below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "blue_skies:raw_aquite"
+      },
+      "text": "Aquite: Found in Swamps, between X1 to X2 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "blue_skies:diopside_gem"
+      },
+      "text": "Diopside: Found in Swamps, between X1 to X2 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "blue_skies:pyrope_gem"
+      },
+      "text": "Pyrope: Found in Swamps, between X1 to X2 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "blue_skies:raw_charoite"
+      },
+      "text": "Charoite: Found in Swamps, between X1 to X2 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "blue_skies:moonstone"
+      },
+      "text": "Moonstone: Found in Swamps, between X1 to X2 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "blue_skies:raw_falsite"
+      },
+      "text": "Falsite: Found in Swamps, between X1 to X2 blocks below sea level."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "blue_skies:raw_ventium"
+      },
+      "text": "Ventium: Found in Swamps, between X1 to X2 blocks below sea level."
+    }
+  ]
+}
