@@ -22,9 +22,5 @@ onEvent("recipes", (event) => {
         input: "ecofriendly:smelted_iron_can_ym",
         output: "minecraft:iron_nugget",
       },
-      {
-        input: "rankine:fire_clay_ball",
-        output: "rankine:refractory_brick",
-      },
     ]);
 });

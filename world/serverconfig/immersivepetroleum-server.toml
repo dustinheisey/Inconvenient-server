@@ -9,12 +9,6 @@
 	#The Flux the Derrick requires each tick to operate
 	#Default: 512
 	derrick_consumption = 512
-	#The Fluid the Derrick uses for drilling lubricant
-	#Default: "minecraft:water"
-	derrick_drilling = "minecraft:water"
-	#The Fluid the Derrick uses for drilling concrete
-	#Default: "immersiveengineering:concrete"
-	derrick_concrete = "immersiveengineering:concrete"
 
 [Refining]
 	#A modifier to apply to the energy costs of every Distillation Tower recipe
@@ -37,7 +31,7 @@
 	hydrotreater_timeModifier = 1.0
 
 [Generation]
-	#List of Portable Generator fuels. Format: fluid_name, mb_used_per_tick, flux_produced_per_tick
+	#List of Portable Generator fuels. Format: fluid_name, mb_used_per_second, flux_produced_per_tick
 	generator_fuels = ["immersivepetroleum:naphtha, 9, 256", "immersivepetroleum:gasoline, 6, 256", "immersivepetroleum:benzene, 6, 256"]
 
 [Miscellaneous]

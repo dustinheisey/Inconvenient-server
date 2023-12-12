@@ -18,8 +18,12 @@ onEvent("recipes", (event) => {
       },
       {
         output: "hexerei:dowsing_rod",
-        pattern: [" a ", "aba", "a a"],
-        key: { a: "#forge:rods/wooden", b: "minecraft:flint" },
+        pattern: [" a ", "aba", "aca"],
+        key: {
+          a: "#forge:rods/wooden",
+          b: "minecraft:flint",
+          c: "farmersdelight:rope",
+        },
       },
       {
         output: "rankine:sodium_chloride_block",
@@ -46,10 +50,9 @@ onEvent("recipes", (event) => {
       },
       {
         output: "minecraft:furnace",
-        pattern: ["aaa", "aba", "aaa"],
+        pattern: ["aaa", "a a", "aaa"],
         key: {
-          a: "#forge:cobblestone",
-          b: "minecraft:campfire",
+          a: "minecraft:brick",
         },
       },
       {
@@ -122,7 +125,7 @@ onEvent("recipes", (event) => {
           a: "minecraft:iron_ingot",
           b: "minecraft:leather",
           c: "endrem:undead_soul",
-          d: "rankine:refractory_brick",
+          d: "rankine:ultra_high_refractory_bricks",
         },
       },
       {

@@ -1,0 +1,1 @@
+gamestage add @s armor_terrasteel_boots

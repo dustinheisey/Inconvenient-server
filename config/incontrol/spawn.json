@@ -1,193 +1,204 @@
 [
-    {
-        "mob": [
-            "blue_skies:gatekeeper",
-            "ecofriendly:recycleagger",
-            "ecofriendly:pollutioner_ym",
-            "ecofriendly:kelpalo_ym",
-            "ecofriendly:vulgare_isopod_ym",
-            "ecofriendly:totoba_ym",
-            "ecofriendly:vaquita",
-            "ecofriendly:peach_isopod_ym",
-            "ecofriendly:vulgare_isopod_ym",
-            "ecofriendly:pek_chong_isopod_ym",
-            "ecofriendly:clown_isopod_ym",
-            "ecofriendly:zebra_isopod_ym",
-            "energeticsheep:energetic_sheep",
-            "minecraft:sheep",
-            "minecraft:cow",
-            "minecraft:bee",
-            "minecraft:mooshroom",
-            "minecraft:phantom",
-            "twilightforest:wild_boar",
-            "minecraft:enderman",
-            "minecraft:villager"
-        ],
-        "result": "deny"
-    },
+  {
+    "mob": [
+      "blue_skies:gatekeeper",
+      "ecofriendly:recycleagger",
+      "ecofriendly:pollutioner_ym",
+      "ecofriendly:kelpalo_ym",
+      "ecofriendly:vulgare_isopod_ym",
+      "ecofriendly:totoba_ym",
+      "ecofriendly:vaquita",
+      "ecofriendly:peach_isopod_ym",
+      "ecofriendly:vulgare_isopod_ym",
+      "ecofriendly:pek_chong_isopod_ym",
+      "ecofriendly:clown_isopod_ym",
+      "ecofriendly:zebra_isopod_ym",
+      "energeticsheep:energetic_sheep",
+      "minecraft:sheep",
+      "minecraft:cow",
+      "minecraft:bee",
+      "minecraft:mooshroom",
+      "minecraft:phantom",
+      "twilightforest:wild_boar",
+      "minecraft:enderman",
+      "minecraft:villager",
+      "totemic:buffalo",
+      "totemic:baykok",
+      "blue_skies:stardust_ram",
+      "twilightforest:bighorn_sheep",
+      "cold_sweat:chameleon"
+    ],
+    "result": "deny"
+  },
 
-    {
-        "mob": ["biomancy:flesh_blob"],
-        "dimension": "minecraft:overworld",
-        "incity": true,
-        "result": "allow"
-    },
+  {
+    "mob": ["biomancy:flesh_blob"],
+    "dimension": "minecraft:overworld",
+    "incity": true,
+    "result": "allow"
+  },
 
-    {
-        "mob": [
-            "minecraft:axolotl",
-            "minecraft:cod",
-            "minecraft:dolphin",
-            "minecraft:drowned",
-            "minecraft:glow_squid",
-            "minecraft:pufferfish",
-            "minecraft:goat",
-            "minecraft:salmon",
-            "minecraft:skeleton",
-            "minecraft:skeleton_horse",
-            "minecraft:polar_bear",
-            "minecraft:squid",
-            "minecraft:stray",
-            "minecraft:tropical_fish",
-            "minecraft:turtle",
-            "minecraft:witch"
-        ],
-        "dimension": "minecraft:overworld",
-        "result": "deny"
-    },
-    {
-        "mob": [
-            "minecraft:axolotl",
-            "minecraft:cod",
-            "minecraft:dolphin",
-            "minecraft:goat",
-            "minecraft:drowned",
-            "minecraft:glow_squid",
-            "minecraft:pufferfish",
-            "minecraft:polar_bear",
-            "minecraft:salmon",
-            "minecraft:skeleton",
-            "minecraft:skeleton_horse",
-            "minecraft:squid",
-            "minecraft:stray",
-            "minecraft:tropical_fish",
-            "minecraft:turtle",
-            "minecraft:witch"
-        ],
-        "gamestage": "gateway_aquatic",
-        "dimension": "minecraft:overworld",
-        "result": "allow"
-    },
+  {
+    "mob": ["cold_sweat:chameleon"],
+    "dimension": "undergarden:undergarden",
+    "result": "allow"
+  },
 
-    {
-        "mob": [
-            "minecraft:bat",
-            "minecraft:creeper",
-            "minecraft:ocelot",
-            "minecraft:panda",
-            "minecraft:parrot"
-        ],
-        "dimension": "minecraft:overworld",
-        "result": "deny"
-    },
-    {
-        "mob": [
-            "minecraft:bat",
-            "minecraft:creeper",
-            "minecraft:ocelot",
-            "minecraft:panda",
-            "minecraft:parrot"
-        ],
-        "gamestage": "gateway_forgotten",
-        "dimension": "minecraft:overworld",
-        "result": "allow"
-    },
+  {
+    "mob": [
+      "minecraft:axolotl",
+      "minecraft:cod",
+      "minecraft:dolphin",
+      "minecraft:drowned",
+      "minecraft:glow_squid",
+      "minecraft:pufferfish",
+      "minecraft:goat",
+      "minecraft:salmon",
+      "minecraft:skeleton",
+      "minecraft:skeleton_horse",
+      "minecraft:horse",
+      "minecraft:polar_bear",
+      "minecraft:squid",
+      "minecraft:stray",
+      "minecraft:tropical_fish",
+      "minecraft:turtle",
+      "minecraft:witch"
+    ],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:axolotl",
+      "minecraft:cod",
+      "minecraft:dolphin",
+      "minecraft:goat",
+      "minecraft:drowned",
+      "minecraft:glow_squid",
+      "minecraft:pufferfish",
+      "minecraft:polar_bear",
+      "minecraft:salmon",
+      "minecraft:skeleton",
+      "minecraft:skeleton_horse",
+      "minecraft:horse",
+      "minecraft:squid",
+      "minecraft:stray",
+      "minecraft:tropical_fish",
+      "minecraft:turtle",
+      "minecraft:witch",
+      "cold_sweat:chameleon"
+    ],
+    "gamestage": "gateway_aquatic",
+    "dimension": "minecraft:overworld",
+    "result": "allow"
+  },
 
-    {
-        "mob": [
-            "minecraft:cave_spider",
-            "minecraft:slime",
-            "minecraft:spider",
-            "minecraft:donkey"
-        ],
-        "dimension": "minecraft:overworld",
-        "result": "deny"
-    },
-    {
-        "mob": [
-            "minecraft:cave_spider",
-            "minecraft:slime",
-            "minecraft:spider",
-            "minecraft:donkey"
-        ],
-        "gamestage": "gateway_poisonous",
-        "dimension": "minecraft:overworld",
-        "result": "allow"
-    },
+  {
+    "mob": [
+      "minecraft:bat",
+      "minecraft:creeper",
+      "minecraft:ocelot",
+      "minecraft:panda",
+      "minecraft:slime",
+      "minecraft:parrot"
+    ],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:bat",
+      "minecraft:creeper",
+      "minecraft:ocelot",
+      "minecraft:panda",
+      "minecraft:slime",
+      "minecraft:parrot"
+    ],
+    "gamestage": "gateway_forgotten",
+    "dimension": "minecraft:overworld",
+    "result": "allow"
+  },
 
-    {
-        "mob": [
-            "minecraft:chicken",
-            "minecraft:fox",
-            "minecraft:rabbit",
-            "minecraft:wolf",
-            "minecraft:llama"
-        ],
-        "dimension": "minecraft:overworld",
-        "result": "deny"
-    },
-    {
-        "mob": [
-            "minecraft:chicken",
-            "minecraft:fox",
-            "minecraft:rabbit",
-            "minecraft:wolf",
-            "minecraft:llama"
-        ],
-        "gamestage": "gateway_magical",
-        "dimension": "minecraft:overworld",
-        "result": "allow"
-    },
+  {
+    "mob": ["minecraft:cave_spider", "minecraft:spider", "minecraft:donkey"],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:cave_spider",
+      "minecraft:slime",
+      "minecraft:spider",
+      "minecraft:donkey"
+    ],
+    "gamestage": "gateway_poisonous",
+    "dimension": "minecraft:overworld",
+    "result": "allow"
+  },
 
-    {
-        "mob": ["minecraft:pig", "minecraft:zombified_piglin"],
-        "dimension": "minecraft:overworld",
-        "result": "deny"
-    },
-    {
-        "mob": ["minecraft:pig", "minecraft:zombified_piglin"],
-        "gamestage": "gateway_hellish",
-        "dimension": "minecraft:overworld",
-        "result": "allow"
-    },
+  {
+    "mob": [
+      "minecraft:chicken",
+      "minecraft:fox",
+      "minecraft:rabbit",
+      "minecraft:wolf",
+      "minecraft:llama",
+      "totemic:bald_eagle"
+    ],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:chicken",
+      "minecraft:fox",
+      "minecraft:rabbit",
+      "minecraft:wolf",
+      "minecraft:llama",
+      "totemic:bald_eagle"
+    ],
+    "gamestage": "gateway_magical",
+    "dimension": "minecraft:overworld",
+    "result": "allow"
+  },
 
-    {
-        "mob": [
-            "minecraft:evoker",
-            "minecraft:wandering_trader",
-            "minecraft:vindicator",
-            "minecraft:villager",
-            "minecraft:trader_llama",
-            "minecraft:ravager",
-            "minecraft:pillager",
-            "minecraft:horse"
-        ],
-        "dimension": "minecraft:overworld",
-        "result": "deny"
-    },
-    {
-        "mob": [
-            "minecraft:evoker",
-            "minecraft:wandering_trader",
-            "minecraft:vindicator",
-            "minecraft:villager",
-            "minecraft:trader_llama",
-            "minecraft:ravager",
-            "minecraft:pillager",
-            "minecraft:horse"
-        ],
-        "gamestage": "gateway_steampunk",
-        "dimension": "minecraft:overworld",
-        "result": "allow"
-    }
+  {
+    "mob": ["minecraft:pig", "minecraft:zombified_piglin"],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:pig", "minecraft:zombified_piglin"],
+    "gamestage": "gateway_hellish",
+    "dimension": "minecraft:overworld",
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "minecraft:evoker",
+      "minecraft:wandering_trader",
+      "minecraft:vindicator",
+      "minecraft:villager",
+      "minecraft:trader_llama",
+      "minecraft:ravager",
+      "minecraft:pillager"
+    ],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:evoker",
+      "minecraft:wandering_trader",
+      "minecraft:vindicator",
+      "minecraft:villager",
+      "minecraft:trader_llama",
+      "minecraft:ravager",
+      "minecraft:pillager"
+    ],
+    "gamestage": "gateway_steampunk",
+    "dimension": "minecraft:overworld",
+    "result": "allow"
+  }
 ]

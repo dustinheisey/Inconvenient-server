@@ -221,6 +221,12 @@ onEvent("lootjs", (event) => {
     .addLoot("explorerscompass:explorerscompass");
 
   event
+    .addEntityLootModifier("blue_skies:spewter")
+    .removeLoot("minecraft:slime_ball")
+    .addLoot("blue_skies:winter_leaf_seeds")
+    .addLoot("blue_skies:winter_leaves");
+
+  event
     .addEntityLootModifier("occultism:afrit_wild")
     .addLoot("occultism:afrit_essence");
   event
@@ -245,6 +251,7 @@ onEvent("lootjs", (event) => {
     .addEntityLootModifier("blue_skies:arachnarch")
     .addLoot("minecraft:slime_ball");
   event.addEntityLootModifier("blue_skies:seclam").addLoot("blue_skies:pearl");
+  event.addEntityLootModifier("blue_skies:azulfo").addLoot("cold_sweat:fur");
 
   event
     .addEntityLootModifier("minecraft:zombie")

@@ -44,7 +44,7 @@ onEvent("recipes", (event) => {
         global: true,
         inputs: [
           {
-            item: "rankine:bone_char",
+            item: "occultism:burnt_otherstone",
           },
           {
             tag: "forge:sand",
@@ -62,13 +62,13 @@ onEvent("recipes", (event) => {
             item: "rankine:high_refractory_brick",
           },
           {
-            item: "twilightforest:transformation_powder",
+            item: "rankine:bone_char",
           },
           {
-            item: "minecraft:lapis_lazuli",
+            item: "rankine:galena",
           },
           {
-            item: "minecraft:lapis_lazuli",
+            item: "rankine:galena",
           },
         ],
         output: "rankine:ultra_high_refractory_brick",
@@ -80,10 +80,10 @@ onEvent("recipes", (event) => {
             item: "rankine:refractory_brick",
           },
           {
-            item: "rankine:porcelain_clay_ball",
+            item: "rankine:bone_char",
           },
           {
-            item: "blue_skies:pyrope_gem",
+            item: "rankine:acanthite",
           },
         ],
         output: "rankine:high_refractory_brick",
@@ -103,6 +103,33 @@ onEvent("recipes", (event) => {
           },
         ],
         output: "rankine:tin_ingot",
+      },
+      {
+        inputs: [
+          {
+            item: "rankine:tin_ingot",
+          },
+          {
+            item: "minecraft:copper_ingot",
+          },
+        ],
+        output: "rankine:bronze_ingot",
+      },
+      {
+        inputs: [
+          {
+            item: "rankine:galena",
+          },
+        ],
+        output: "rankine:lead_ingot",
+      },
+      {
+        inputs: [
+          {
+            item: "rankine:acanthite",
+          },
+        ],
+        output: "rankine:silver_ingot",
       },
     ]);
 });

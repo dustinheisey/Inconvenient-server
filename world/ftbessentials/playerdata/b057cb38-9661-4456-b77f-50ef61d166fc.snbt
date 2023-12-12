@@ -4,7 +4,7 @@
 	god: false
 	nick: ""
 	name: "dh253"
-	last_seen: { dim: "minecraft:overworld", x: 33, y: 64, z: 8, time: 1692485624099L, xRot: 17.400095f, yRot: -70.50586f }
+	last_seen: { dim: "minecraft:overworld", x: 34, y: 52, z: -61, time: 1702406502763L, xRot: -7.3504124f, yRot: -88.21052f }
 	recording: 0
 	teleport_history: [ ]
 	homes: { }

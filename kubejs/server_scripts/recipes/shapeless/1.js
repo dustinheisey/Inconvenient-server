@@ -1,6 +1,6 @@
 onEvent("recipes", (event) => {
   event.remove({
-    output: "rankine:sodium_chloride",
+    output: ["rankine:sodium_chloride", "rankine:mortar"],
     type: "minecraft:crafting_shapeless",
   });
 
@@ -58,12 +58,7 @@ onEvent("recipes", (event) => {
     .add([
       {
         output: "kubejs:salted_hide",
-        inputs: [
-          "kubejs:stitched_hide",
-          "rankine:sodium_chloride",
-          "rankine:sodium_chloride",
-          "rankine:sodium_chloride",
-        ],
+        inputs: ["kubejs:stitched_hide", "salt:salt", "salt:salt", "salt:salt"],
       },
       {
         output: "kubejs:stitched_hide",

@@ -41,6 +41,8 @@ onEvent("recipes", (event) => {
       "rankine:dough",
       "rankine:bitumen",
       "rankine:mariposite",
+      "rankine:cement_mix",
+      "rankine:porcelain_clay_ball",
     ])
     .modifyOutputs([
       {
@@ -94,27 +96,17 @@ onEvent("recipes", (event) => {
       {
         fluid_input: {
           id: "minecraft:water",
-          amount: 50,
+          amount: 100,
         },
         inputs: [
           {
-            id: "blue_skies:crystal_sand",
-            min: 0.05,
-            max: 0.2,
+            tag: "minecraft:sand",
+            min: 0.5,
+            max: 0.8,
           },
           {
-            id: "blue_skies:taratite",
-            min: 0.3,
-            max: 0.5,
-          },
-          {
-            id: "blue_skies:moonstone",
-            min: 0.1,
-            max: 0.2,
-          },
-          {
-            id: "rankine:cement_mix",
-            min: 0.3,
+            id: "rankine:mortar",
+            min: 0.2,
             max: 0.5,
           },
         ],
@@ -123,74 +115,21 @@ onEvent("recipes", (event) => {
       {
         fluid_input: {
           id: "minecraft:water",
-          amount: 50,
+          amount: 100,
         },
         inputs: [
-          {
-            tag: "forge:clay_balls",
-            min: 0.2,
-            max: 0.4,
-          },
           {
             tag: "minecraft:sand",
-            min: 0.2,
-            max: 0.4,
+            min: 0.5,
+            max: 0.8,
           },
           {
-            id: "rankine:galena",
+            id: "rankine:quicklime",
             min: 0.2,
-            max: 0.4,
+            max: 0.5,
           },
         ],
-        output: "rankine:cement_mix",
-      },
-      {
-        fluid_input: {
-          id: "minecraft:water",
-          amount: 25,
-        },
-        inputs: [
-          {
-            id: "rankine:kaolinite",
-            min: 0.2,
-            max: 0.4,
-          },
-          {
-            id: "blue_skies:crystal_sand",
-            min: 0.2,
-            max: 0.4,
-          },
-          {
-            id: "blue_skies:aquite",
-            min: 0.2,
-            max: 0.4,
-          },
-        ],
-        output: "rankine:porcelain_clay_ball",
-      },
-      {
-        fluid_input: {
-          id: "minecraft:lava",
-          amount: 25,
-        },
-        inputs: [
-          {
-            id: "minecraft:clay_ball",
-            min: 0.2,
-            max: 0.4,
-          },
-          {
-            id: "endrem:undead_soul",
-            min: 0.2,
-            max: 0.4,
-          },
-          {
-            id: "rankine:smouldering_tinder_conk",
-            min: 0.2,
-            max: 0.4,
-          },
-        ],
-        output: "rankine:fire_clay_ball",
+        output: "rankine:mortar",
       },
     ])
     .add([

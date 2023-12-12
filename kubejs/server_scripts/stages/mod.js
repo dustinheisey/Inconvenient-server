@@ -23,6 +23,8 @@ onEvent("tags.items", (event) => {
     "death_compass",
     "gravestone",
     "depthmeter",
+    "salt",
+    "labels",
   ]);
   stageMods("stage_2", [
     "farmersdelight",
@@ -35,7 +37,8 @@ onEvent("tags.items", (event) => {
     "paragon_textiles",
     "farmersrespite",
     "modonomicon",
-    "theurgy",
+    "totemic",
+    "astikorcarts",
   ]);
   stageMods("stage_3", [
     "comforts",
@@ -47,6 +50,7 @@ onEvent("tags.items", (event) => {
     "occultism",
     "undergarden",
     "twilighttweaks",
+    "malum",
   ]);
   stageMods("stage_4", [
     "immersive_aircraft",

@@ -1,1 +1,0 @@
-gamestage add @s gateway_magical

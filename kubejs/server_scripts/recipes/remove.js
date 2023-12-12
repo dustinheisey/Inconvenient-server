@@ -1,22 +1,41 @@
 onEvent("recipes", (event) => {
   new recipes(event)
     .removeIds([
+      "twilightforest:equipment/fiery_ingot_crafting",
+      // "malum:copper_ingot_from_nugget",
+      // "mekanism:processing/bronze/ingot/from_nuggets",
+      // "mekanism:processing/bronze/ingot/from_block",
+      // "immersiveengineering:crafting/storage_silver_to_ingot_silver",
+      // "immersiveengineering:crafting/nugget_silver_to_ingot_silver",
+      // "chemlib:silver_block_to_ingot",
+      // "chemlib:silver_nugget_to_ingot",
+      // "occultism:crafting/silver_ingot_from_nuggets",
+      // "occultism:crafting/silver_ingot_from_block",
+      // "mekanism:processing/tin/ingot/from_nuggets",
+      // "mekanism:processing/tin/ingot/from_block",
+      // "chemlib:tin_block_to_ingot",
+      // "chemlib:tin_nugget_to_ingot",
+      // "mekanism:processing/lead/ingot/from_nuggets",
+      // "mekanism:processing/lead/ingot/from_block",
+      // "immersiveengineering:crafting/storage_lead_to_ingot_lead",
+      // "immersiveengineering:crafting/nugget_lead_to_ingot_lead",
+      // "chemlib:lead_block_to_ingot",
+      // "chemlib:lead_nugget_to_ingot",
+      "rankine:crushing/leaves_crushing",
+      "rankine:crushing/sapling_crushing",
+      "rankine:alloy_crafting/flint_and_steel",
       "immersiveengineering:arcfurnace/alloy_rose_gold",
       "immersiveengineering:alloysmelter/rose_gold",
-
       "bloodmagic:arc/reversion/magician_blood_orb",
       "bloodmagic:arc/reversion/apprentice_blood_orb",
       "bloodmagic:arc/reversion/weak_blood_orb",
-
       "create:kjs_2rln2i2207ucys433qklpuflr",
-
       "rankine:evaporation/water_ocean_evaporation",
       "rankine:evaporation/water_groundwater_evaporation",
       "rankine:evaporation/water_desert_evaporation",
       "rankine:alloying/damascus_steel_alloying",
       "rankine:alloying/crucible_steel_alloying",
       "rankine:alloying/stainless_steel_alloying",
-
       "immersiveengineering:crusher/ore_copper",
       "immersiveengineering:crusher/raw_ore_iron",
       "immersiveengineering:crusher/ore_nickel",
@@ -37,22 +56,15 @@ onEvent("recipes", (event) => {
       "immersiveengineering:crusher/raw_block_copper",
       "immersiveengineering:crusher/raw_block_gold",
       "immersiveengineering:crusher/raw_block_lead",
-
       "antiqueatlas:atlas_clone",
       "antiqueatlas:atlas_combine",
-
       "immersivepetroleum:hydrotreater/ethylene_plastic",
       "immersivepetroleum:hydrotreater/propylene_plastic",
-
       "pneumaticcraft:thermo_plant/plastic_from_lpg",
       "pneumaticcraft:thermo_plant/plastic_from_biodiesel",
-
       "farmersdelight:kjs_8tfqgi45o01oyyr06w45v3il2",
-
       "immersiveengineering:refinery/acetaldehyde",
-
       "pneumaticcraft:explosion_crafting/compressed_iron_block",
-
       "pneumaticcraft:thermo_plant/diamond_drill_bit",
       "immersiveengineering:crafting/nugget_constantan_to_ingot_constantan",
       "immersiveengineering:crafting/storage_constantan_to_ingot_constantan",
@@ -62,12 +74,9 @@ onEvent("recipes", (event) => {
       "immersiveengineering:crafting/ingot_steel_to_nugget_steel",
       "immersiveengineering:crafting/ingot_constantan_to_storage_constantan",
       "immersiveengineering:crafting/ingot_steel_to_storage_steel",
-
       "immersiveengineering:squeezer/graphite_dust",
       "productivebees:honey_bucket",
-
       "minecraft:wheat",
-
       "productivebees:bee_produce/gems/opal_bee",
       "productivebees:bee_produce/gems/diamond_bee",
       "productivebees:bee_produce/fluids/oily_bee",
@@ -95,11 +104,9 @@ onEvent("recipes", (event) => {
       "productivebees:bee_produce/ingots/electrum_bee",
       "productivebees:bee_produce/ingots/titanium_bee",
       "productivebees:bee_produce/ingots/tungsten_bee",
-
       "productivebees:stone_chip_block_hive_compressed_stone",
       "productivebees:stone_chip_block_hive_reinforced_stone",
       "productivebees:stone_chip_block_hive_tuff",
-
       "productivebees:bee_breeding/ingots/steel_bee",
       "productivebees:bee_breeding/gems/emerald_bee",
       "productivebees:bee_breeding/ingots/platinum_bee",
@@ -116,11 +123,9 @@ onEvent("recipes", (event) => {
       "productivebees:bee_breeding/gems/diamond_bee",
       "productivebees:bee_breeding/ingots/tungsten_bee",
       "productivebees:bee_breeding/ingots/radioactive_bee",
-
       "productivebees:centrifuge/fluids/honeycomb_oily",
       "productivebees:centrifuge/pneumaticcraft/honeycomb_compressed_iron",
       "productivebees:centrifuge/fluids/honeycomb_milky_fluid",
-
       "productivebees:bee_conversion/gems/sapphire_bee",
       "productivebees:bee_conversion/gems/ruby_bee",
       "productivebees:bee_conversion/gems/fluorite_bee",
@@ -133,7 +138,6 @@ onEvent("recipes", (event) => {
       "productivebees:bee_conversion/gems/amber_bee",
       "productivebees:bee_conversion/ingots/netherite_bee",
       "productivebees:bee_conversion/gems/amethyst_bee",
-
       "productivebees:garnet_incubation",
       "productivebees:invar_incubation",
       "productivebees:pearl_incubation",
@@ -143,7 +147,6 @@ onEvent("recipes", (event) => {
       "productivebees:emerald_incubation",
       "productivebees:electrum_incubation",
       "productivebees:amber_incubation",
-
       "ecofriendly:detergent_banner_recipe",
       "ecofriendly:desertgent_carpet_recipe",
       "ecofriendly:detergent_wool_recipe",
@@ -158,7 +161,7 @@ onEvent("recipes", (event) => {
       "farmersdelight:milk_bucket_from_bottles",
       "rankine:alloy_crafting/rock_drill",
       "naturesaura:bottle_two_the_rebottling",
-      "comforts:rope_and_nail_shapeless",
+      // "comforts:rope_and_nail_shapeless",
       "bloodsmeltery:smeltery/alloy/blood_stone",
       "hem:blueleafbarrel",
       "hem:composterblueleaf",
@@ -171,6 +174,8 @@ onEvent("recipes", (event) => {
       "immersiveengineering:redstone_acid_bucket",
       "pneumaticcraft:explosion_crafting/compressed_iron_ingot",
       "immersiveengineering:crafting/sheetmetal_copper",
+      "paragon_textiles:wicker_from_sugar_cane",
+      "paragon_textiles:raw_fibers_from_plant_fibers",
       "paragon_textiles:red_bed",
       "paragon_textiles:orange_bed",
       "paragon_textiles:yellow_bed",
@@ -219,22 +224,6 @@ onEvent("recipes", (event) => {
       "paragon_textiles:black_banner",
       "paragon_textiles:white_banner",
       "paragon_textiles:pink_banner",
-      "paragon_textiles:cushion_red",
-      "paragon_textiles:cushion_orange",
-      "paragon_textiles:cushion_yellow",
-      "paragon_textiles:cushion_lime",
-      "paragon_textiles:cushion_green",
-      "paragon_textiles:cushion_cyan",
-      "paragon_textiles:cushion_light_blue",
-      "paragon_textiles:cushion_blue",
-      "paragon_textiles:cushion_magenta",
-      "paragon_textiles:cushion_purple",
-      "paragon_textiles:cushion_light_gray",
-      "paragon_textiles:cushion_gray",
-      "paragon_textiles:cushion_brown",
-      "paragon_textiles:cushion_black",
-      "paragon_textiles:cushion_white",
-      "paragon_textiles:cushion_pink",
       "hexerei:leather_from_drying_rack",
       // "mekanism:storage_blocks/bronze",
       // "mekanism:nuggets/bronze",
@@ -255,6 +244,8 @@ onEvent("recipes", (event) => {
       "immersiveengineering:crafting/copper_ingot_to_nugget_copper",
       "tconstruct:common/materials/copper_ingot_from_nuggets",
       "tconstruct:common/materials/copper_nugget_from_ingot",
+      "tconstruct:smeltery/seared/chute_retextured",
+      "tconstruct:smeltery/seared/drain_retextured",
       "create:crafting/materials/copper_ingot",
       "create:crafting/materials/copper_nugget",
       "charcoal_pit:coke_oven",
@@ -274,6 +265,28 @@ onEvent("recipes", (event) => {
       "rankine:cobalt_nugget",
     ])
     .removeOutputs([
+      "naturesaura:ancient_sapling",
+      "rankine:plant_fiber",
+      "rankine:rope",
+      // "rankine:lead_nugget",
+      // "rankine:tin_nugget",
+      // "rankine:silver_nugget",
+      // "rankine:copper_nugget",
+      // "rankine:bronze_nugget",
+      // "rankine:lead_ingot",
+      // "rankine:tin_ingot",
+      // "rankine:silver_ingot",
+      // "rankine:bronze_ingot",
+      // "minecraft:copper_ingot",
+      // "rankine:lead_block",
+      // "rankine:tin_block",
+      // "rankine:silver_block",
+      // "rankine:bronze_block",
+      // "minecraft:copper_block",
+      // "minecraft:iron_block",
+      "immersiveengineering:raw_block_silver",
+      "immersiveengineering:raw_block_lead",
+      "totemic:totem_whittling_knife",
       "rankine:alloy_helmet",
       "rankine:alloy_chestplate",
       "rankine:alloy_leggings",
@@ -316,12 +329,17 @@ onEvent("recipes", (event) => {
       "minecraft:trident",
     ])
     .removeInputs([
+      "rankine:plant_fiber",
+      "rankine:rope",
+      "immersiveengineering:raw_block_silver",
+      "immersiveengineering:raw_block_lead",
       "#farmersdelight:wild_crops",
       "ecofriendly:smelted_iron_can_ym",
       "minecraft:barrier",
       "butchercraft:butcher_knife",
     ])
     .removeCraftingOutputs([
+      "rankine:sodium_chloride_block",
       "botania:lexicon",
       "rankine:pancake_breakfast",
       "minecraft:beef",
@@ -407,6 +425,30 @@ onEvent("recipes", (event) => {
         input: ["minecraft:charcoal", "rankine:graphite", "#forge:coal_coke"],
       },
       {
+        output: [
+          "rankine:bronze_blunderbuss",
+          "rankine:bronze_crowbar",
+          "rankine:bronze_knife",
+          "rankine:bronze_spear",
+          "rankine:bronze_axe",
+          "rankine:bronze_pickaxe",
+          "rankine:bronze_shovel",
+          "rankine:bronze_sword",
+          "rankine:bronze_hammer",
+          "rankine:bronze_hoe",
+        ],
+        input: ["rankine:brass_ingot"],
+      },
+      {
+        input: "tconstruct:seared_brick",
+        output: [
+          "tconstruct:seared_duct",
+          "tconstruct:seared_drain",
+          "tconstruct:seared_chute",
+          "tconstruct: seared_melter",
+        ],
+      },
+      {
         input: "butchercraft:butcher_knife",
         output: [
           [
@@ -422,6 +464,14 @@ onEvent("recipes", (event) => {
       {
         output: "minecraft:white_wool",
         input: ["minecraft:string"],
+      },
+      {
+        output: "paragon_textiles:raw_fibers",
+        input: ["paragon_textiles:plant_fibers"],
+      },
+      {
+        output: "paragon_textiles:wicker",
+        input: ["minecraft:sugar_cane"],
       },
       {
         output: "minecraft:torch",
@@ -518,7 +568,6 @@ onEvent("recipes", (event) => {
   const filtered_stacks = [
     "paraglider:horned_statue",
     "blue_skies:bag_of_spoils",
-    "@theurgy",
     "rankine:steel_sheetmetal",
     "tconstruct:plate_cast",
     "tconstruct:plate_sand_cast",
@@ -728,7 +777,6 @@ onEvent("recipes", (event) => {
     "productivebees:spruce_wood_nest",
     "rankine:comendite_cobble",
     "rankine:bamboo_culms_boat",
-    "rankine:wooden_gold_pan",
     "rankine:ruby_geode",
     "rocks:soul_soil_rock",
     "charcoal_pit:apple_leaves",

@@ -1,19 +1,55 @@
 onEvent("recipes", (event) => {
   let modify_config = [
     {
-      output: "tconstruct:seared_melter",
+      output: "totemic:wind_chime",
+      pattern: ["aaa", " bb", "  b"],
+      key: {
+        a: "minecraft:iron_ingot",
+        b: "totemic:cedar_planks",
+      },
+    },
+    {
+      output: "cold_sweat:minecart_insulation",
       pattern: ["a a", "aaa"],
       key: {
-        a: `tconstruct:seared_brick`,
+        a: "cold_sweat:fur",
+      },
+    },
+    {
+      output: "tconstruct:pattern",
+      pattern: ["ab", "ba"],
+      key: {
+        a: "rankine:jute",
+        b: "#forge:rods/wooden",
+      },
+    },
+    {
+      output: "farmersrespite:kettle",
+      pattern: ["aba", "cdc", "cec"],
+      key: {
+        a: `#forge:rods/wooden`,
+        b: "minecraft:leather",
+        c: "minecraft:copper_ingot",
+        d: "minecraft:bucket",
+        e: "rankine:pewter_ingot",
       },
     },
     {
       output: `relics:researching_table`,
-      pattern: ["aba", "bcb", "ccc"],
+      pattern: ["aba", "bcb", "cdc"],
       key: {
         a: `naturesaura:gold_powder`,
         b: "paragon_textiles:fabric_red",
-        c: "blue_skies:frostbright_log",
+        c: "malum:runewood_log",
+        d: "malum:sacred_spirit",
+      },
+    },
+    {
+      output: "naturesaura:wood_stand",
+      pattern: ["a", "b"],
+      key: {
+        a: `naturesaura:gold_leaf`,
+        b: "totemic:cedar_log",
       },
     },
     {
@@ -147,8 +183,50 @@ onEvent("recipes", (event) => {
       pattern: ["a a", "bcb", "bbb"],
       key: {
         a: "hexerei:selenite_shard",
-        b: "rankine:pewter_ingot",
+        b: "tconstruct:amethyst_bronze_ingot",
         c: "minecraft:cauldron",
+      },
+    },
+    {
+      output: "totemic:drum",
+      pattern: ["aaa", "bcb", "cbc"],
+      key: {
+        a: "minecraft:leather",
+        b: "#minecraft:planks",
+        c: "rankine:gun_cotton",
+      },
+    },
+    {
+      output: "paragon_textiles:cushion_plain",
+      pattern: ["a", "b"],
+      key: {
+        a: `paragon_textiles:fabric_plain`,
+        b: "#minecraft:wooden_slabs",
+      },
+    },
+    {
+      output: "paragon_textiles:cushion_red",
+      pattern: ["a", "b"],
+      key: {
+        a: `paragon_textiles:fabric_red`,
+        b: "#minecraft:wooden_slabs",
+      },
+    },
+    {
+      output: "occultism:brush",
+      pattern: ["aaa", "bbb"],
+      key: {
+        a: "#minecraft:planks",
+        b: "paragon_textiles:silk",
+      },
+    },
+    {
+      output: `comforts:hammock_white`,
+      pattern: ["aba", "aca", "aba"],
+      key: {
+        a: `farmersdelight:rope`,
+        b: "#forge:rods/wooden",
+        c: "rankine:gun_cotton",
       },
     },
     {
@@ -212,6 +290,67 @@ onEvent("recipes", (event) => {
       key: {
         a: "tconstruct:amethyst_bronze_ingot",
         b: "blue_skies:diopside_block",
+      },
+    },
+    {
+      output: "astikorcarts:wheel",
+      pattern: ["aba", "bcb", "aba"],
+      key: {
+        a: "#forge:rods/wooden",
+        b: "minecraft:iron_ingot",
+        c: "#minecraft:planks",
+      },
+    },
+    {
+      output: "astikorcarts:plow",
+      pattern: ["aaa", "bcb", "dbd"],
+      key: {
+        a: "minecraft:iron_hoe",
+        b: "#forge:rods/wooden",
+        c: "#minecraft:planks",
+        d: "astikorcarts:wheel",
+      },
+    },
+    {
+      output: "astikorcarts:animal_cart",
+      pattern: ["aaa", "aba", "cac"],
+      key: {
+        a: "#minecraft:planks",
+        b: "minecraft:iron_ingot",
+        c: "astikorcarts:wheel",
+      },
+    },
+    {
+      output: "astikorcarts:supply_cart",
+      pattern: ["aba", "aba", "cac"],
+      key: {
+        a: "#minecraft:planks",
+        b: "paragon_textiles:basket",
+        c: "astikorcarts:wheel",
+      },
+    },
+    {
+      output: "2x tconstruct:seared_bricks",
+      pattern: ["ab", "ba"],
+      key: {
+        a: "tconstruct:seared_stone",
+        b: "rankine:mortar",
+      },
+    },
+    {
+      output: "tconstruct:seared_melter",
+      pattern: ["a a", "aaa"],
+      key: {
+        a: "tconstruct:seared_bricks",
+      },
+    },
+    {
+      output: "totemic:tipi",
+      pattern: [" a ", "bcb", "c c"],
+      key: {
+        a: "minecraft:leather",
+        b: "#forge:rods/wooden",
+        c: "rankine:gun_cotton",
       },
     },
   ];
@@ -348,8 +487,8 @@ onEvent("recipes", (event) => {
       },
       {
         output: `rankine:gun_cotton`,
-        pattern: ["abb", "bbb", "bbb"],
-        key: { a: `rankine:quicklime`, b: "rankine:cotton" },
+        pattern: ["aaa", "aaa", "aaa"],
+        key: { a: "rankine:cotton" },
       },
       {
         output: "minecraft:furnace",
@@ -383,11 +522,6 @@ onEvent("recipes", (event) => {
           b: "#forge:bricks",
           c: "minecraft:furnace",
         },
-      },
-      {
-        output: `minecraft:white_bed`,
-        pattern: ["aaa", "bbb"],
-        key: { a: `rankine:gun_cotton`, b: "#minecraft:planks" },
       },
       {
         output: "paragon_textiles:silk",

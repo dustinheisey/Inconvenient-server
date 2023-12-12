@@ -1,0 +1,1 @@
+gamestage add @s armor_fiery_boots

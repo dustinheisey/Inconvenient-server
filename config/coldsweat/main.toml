@@ -4,11 +4,11 @@
 Difficulty = 4
 
 ["Item settings"]
-	#Fire Resistance blocks all hot temperatures
+	#Allow fire resistance to block overheating damage
 	"Fire Resistance Immunity" = true
-	#Ice Resistance blocks all cold temperatures
+	#Allow ice resistance to block freezing damage
 	"Ice Resistance Immunity" = true
-	#Thermometer item is required to see world temperature
+	#Thermometer item is required to see detailed world temperature
 	"Require Thermometer" = true
 
 ["Details about how the player is affected by temperature"]
@@ -21,12 +21,15 @@ Difficulty = 4
 	#Rate at which the player's body temperature changes (default: 1.0 (100%))
 	#Range: 0.0 ~ Infinity
 	"Rate Multiplier" = 1.0
+	#Damage dealt to the player when they are too hot or too cold
+	#Range: 0.0 ~ Infinity
+	"Temperature Damage" = 2.0
 
 ["Grace Period Details"]
-	#Grace period length in ticks (default: 6000)
+	#The number of ticks after the player spawns during which they are immune to temperature effects
 	#Range: > 0
 	"Grace Period Length" = 6000
-	#Enables the grace period (default: true)
+	#Enables the grace period
 	"Grace Period Enabled" = true
 
 ["Cold Soul Fire"]
@@ -57,13 +60,13 @@ Difficulty = 4
 		"Cold Mining Fatigue" = true
 
 [Hearth]
-	#How strong the hearth is (default: 0.5)
+	#How strong the hearth is
 	#Range: 0.0 ~ 1.0
 	"Hearth Strength" = 0.5
-	#List of blocks that the hearth can spread through
+	#List of additional blocks that the hearth can spread through
 	#Use this list if the hearth isn't spreading through particular blocks that it should
 	"Hearth Spread Whitelist" = ["minecraft:iron_bars", "minecraft:jungle_leaves", "minecraft:oak_leaves", "minecraft:spruce_leaves", "minecraft:dark_oak_leaves", "minecraft:acacia_leaves", "minecraft:birch_leaves", "minecraft:azalea_leaves", "minecraft:flowering_azalea_leaves", "hexerei:willow_leaves", "hexerei:mahogany_leaves", "blue_skies:bluebright_leaves", "blue_skies:starlit_leaves", "blue_skies:frostbright_leaves", "blue_skies:lunar_leaves", "blue_skies:dusk_leaves", "blue_skies:maple_leaves", "blue_skies:crystallized_leaves", "blue_skies:cherry_leaves", "blue_skies:crescent_fruit_leaves", "architects_palette:twisted_leaves", "twilightforest:rainbow_oak_leaves", "twilightforest:twilight_oak_leaves", "twilightforest:canopy_leaves", "twilightforest:mangrove_leaves", "twilightforest:dark_leaves", "twilightforest:time_leaves", "twilightforest:transformation_leaves", "twilightforest:mining_leaves", "twilightforest:sorting_leaves", "twilightforest:thorn_leaves", "twilightforest:beanstalk_leaves", "charcoal_pit:apple_leaves", "charcoal_pit:cherry_leaves", "charcoal_pit:dragon_leaves", "charcoal_pit:chestnut_leaves", "charcoal_pit:orange_leaves", "charcoal_pit:olive_leaves", "charcoal_pit:enchanted_leaves", "charcoal_pit:maple_leaves", "chipped:acacia_leaves_1", "chipped:acacia_leaves_2", "chipped:acacia_leaves_3", "chipped:acacia_leaves_4", "chipped:acacia_leaves_5", "chipped:acacia_leaves_6", "chipped:acacia_leaves_7", "chipped:acacia_leaves_8", "chipped:acacia_leaves_9", "chipped:acacia_leaves_10", "chipped:acacia_leaves_11", "chipped:acacia_leaves_12", "chipped:birch_leaves_1", "chipped:birch_leaves_2", "chipped:birch_leaves_3", "chipped:birch_leaves_4", "chipped:birch_leaves_5", "chipped:birch_leaves_6", "chipped:birch_leaves_7", "chipped:birch_leaves_8", "chipped:birch_leaves_9", "chipped:birch_leaves_10", "chipped:birch_leaves_11", "chipped:birch_leaves_12", "chipped:jungle_leaves_1", "chipped:jungle_leaves_2", "chipped:jungle_leaves_3", "chipped:jungle_leaves_4", "chipped:jungle_leaves_5", "chipped:jungle_leaves_6", "chipped:jungle_leaves_7", "chipped:jungle_leaves_8", "chipped:jungle_leaves_9", "chipped:jungle_leaves_10", "chipped:jungle_leaves_11", "chipped:jungle_leaves_12", "chipped:oak_leaves_1", "chipped:oak_leaves_2", "chipped:oak_leaves_3", "chipped:oak_leaves_4", "chipped:oak_leaves_5", "chipped:oak_leaves_6", "chipped:oak_leaves_7", "chipped:oak_leaves_8", "chipped:oak_leaves_9", "chipped:oak_leaves_10", "chipped:oak_leaves_11", "chipped:oak_leaves_12", "chipped:spruce_leaves_1", "chipped:spruce_leaves_2", "chipped:spruce_leaves_3", "chipped:spruce_leaves_4", "chipped:spruce_leaves_5", "chipped:spruce_leaves_6", "chipped:spruce_leaves_7", "chipped:spruce_leaves_8", "chipped:spruce_leaves_9", "chipped:spruce_leaves_10", "chipped:spruce_leaves_11", "chipped:spruce_leaves_12", "chipped:dark_oak_leaves_1", "chipped:dark_oak_leaves_2", "chipped:dark_oak_leaves_3", "chipped:dark_oak_leaves_4", "chipped:dark_oak_leaves_5", "chipped:dark_oak_leaves_6", "chipped:dark_oak_leaves_7", "chipped:dark_oak_leaves_8", "chipped:dark_oak_leaves_9", "chipped:dark_oak_leaves_10", "chipped:dark_oak_leaves_11", "chipped:dark_oak_leaves_12", "naturesaura:golden_leaves", "naturesaura:ancient_leaves", "naturesaura:decayed_leaves", "undergarden:smogstem_leaves", "undergarden:wigglewood_leaves", "undergarden:grongle_leaves", "rankine:cedar_leaves", "rankine:balsam_fir_leaves", "rankine:eastern_hemlock_leaves", "rankine:western_hemlock_leaves", "rankine:pinyon_pine_leaves", "rankine:juniper_leaves", "rankine:black_birch_leaves", "rankine:yellow_birch_leaves", "rankine:red_birch_leaves", "rankine:maple_leaves", "rankine:magnolia_leaves", "rankine:black_walnut_leaves", "rankine:coconut_palm_leaves", "rankine:cork_oak_leaves", "rankine:sharinga_leaves", "rankine:cinnamon_leaves", "rankine:honey_locust_leaves", "rankine:weeping_willow_leaves", "rankine:erythrina_leaves", "tconstruct:earth_slime_leaves", "tconstruct:sky_slime_leaves", "tconstruct:ender_slime_leaves", "occultism:otherworld_leaves", "occultism:otherworld_leaves_natural"]
-	#List of blocks that the hearth cannot spread through
+	#List of additional blocks that the hearth cannot spread through
 	#Use this list if the hearth is spreading through particular blocks that it shouldn't
 	"Hearth Spread Blacklist" = []
 

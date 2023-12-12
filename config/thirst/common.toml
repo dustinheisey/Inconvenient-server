@@ -2,9 +2,9 @@
 [General]
 	#How much faster is hydration depletion relative to hunger (1 means they will deplete at the same speed)
 	thirstDepletionModifier = 1.2
-	#Whether players will get slowness effect when thirsty
+	#Whether players won't be able to sprint if their thirst bar is 3 droplets or less
 	moveSlowWhenThirsty = true
-	#Whether foods considered as drinks should have nutrition
+	#Whether foods labeled as drinks will restore hunger
 	enableDrinksNutrition = true
 
 [World]
@@ -34,6 +34,8 @@
 	purifiedNauseaPercentage = 0
 	#Whether player should gain hydration even if they recieved a purity-related debuff
 	quenchThirstWhenDebuffed = true
+	#Purity for drinks that normally have purity but for whatever reason don't have a value set
+	defaultPurity = 3
 
 ["Purification levels"]
 	#How many levels of purification are added after boiling in a kettle

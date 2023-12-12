@@ -44,7 +44,7 @@ onEvent("recipes", (event) => {
       },
       {
         output: "blue_skies:bluebright_sapling",
-        input: "rankine:weeping_willow_sapling",
+        input: "occultism:otherworld_sapling",
         input_fluid: "kubejs:molten_sterling_silver",
         fluid_consumed: 1000,
       },

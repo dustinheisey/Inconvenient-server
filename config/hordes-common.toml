@@ -13,6 +13,7 @@
 	#What time of day does the horde event start? eg 18000 is midnight with default day length.
 	hordeStartTime = 18000
 	#Amount of days between horde spawns.
+	#Range: > 1
 	hordeSpawnDays = 15
 	#Amount of days a horde event can be randomly delayed by
 	hordeSpawnVariation = 0

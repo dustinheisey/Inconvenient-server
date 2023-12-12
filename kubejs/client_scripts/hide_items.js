@@ -1,5 +1,11 @@
 onEvent("jei.hide.items", (event) => {
   [
+    "charcoal_pit:bronze_pick",
+    "charcoal_pit:bronze_shovel",
+    "charcoal_pit:bronze_axe",
+    "charcoal_pit:bronze_hoe",
+    "charcoal_pit:bronze_sword",
+    "rankine:flint_hoe",
     "minecraft:bee_nest",
     "rankine:alloy_helmet",
     "rankine:alloy_chestplate",
@@ -1139,7 +1145,6 @@ onEvent("jei.hide.items", (event) => {
     "tconstruct:budding_ender_slime_crystal",
     "blue_skies:aquatic_stairs",
     "minecraft:wooden_hoe",
-    "rankine:wooden_gold_pan",
     "immersiveengineering:nugget_aluminum",
     "rankine:slate_cobble",
     "architects_palette:osseous_brick_vertical_slab",
@@ -1245,6 +1250,9 @@ onEvent("jei.hide.items", (event) => {
     "rankine:mossy_kimberlite_bricks_stairs",
     "rankine:mossy_kimberlite_bricks_wall",
     "blue_skies:alchemy_table",
+    "rankine:sodium_chloride",
+    "rankine:sodium_chloride_block",
+    "mekanism:block_salt",
   ].forEach((item) => {
     event.hide(item);
   });
