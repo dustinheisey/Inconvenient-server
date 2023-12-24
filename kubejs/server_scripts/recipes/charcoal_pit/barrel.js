@@ -1,11 +1,11 @@
-onEvent("recipes", (event) => {
-  event.remove({ type: "charcoal_pit:barrel" });
+onEvent('recipes', event => {
+  event.remove({type: 'charcoal_pit:barrel'});
 
   new recipes(event)
-    .setType("charcoal_pit:barrel")
-    .setFunction((config) =>
+    .setType('charcoal_pit:barrel')
+    .setFunction(config =>
       event.custom({
-        type: "charcoal_pit:barrel",
+        type: 'charcoal_pit:barrel',
         item_in: {
           item: config.input_item,
         },
@@ -24,9 +24,9 @@ onEvent("recipes", (event) => {
     )
     .add([
       {
-        input_item: "butchercraft:brain",
-        input_fluid: "minecraft:water",
-        output_fluid: "kubejs:tanning_fluid",
+        input_item: 'butchercraft:brain',
+        input_fluid: 'minecraft:water',
+        output_fluid: 'kubejs:tanning_fluid',
       },
     ]);
 });

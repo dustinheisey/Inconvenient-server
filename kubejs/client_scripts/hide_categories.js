@@ -1,21 +1,21 @@
-onEvent("jei.remove.categories", (event) => {
-    event.remove([
-        "create:automatic_brewing",
-        "create:automatic_packing",
-        "create:automatic_shaped",
-        "create:automatic_shapeless",
-        "minecraft:plugins/tag",
-        "charcoal_pit:distill",
-        "charcoal_pit:hot_blasting",
-        "charcoal_pit:squish",
-        "rankine:crucible",
-        "rankine:foraging",
-        "twilightforest:uncrafting",
-        "biomancy:bio_forging",
-        "occultism:miner",
-        "pneumaticcraft:spawner_extraction",
-        "farmingforblockheads:market",
-        "rankine:fusion_furnace",
-        "rankine:cauldron_drying"
-    ]);
+onEvent('jei.remove.categories', event => {
+  event.remove([
+    'create:automatic_brewing',
+    'create:automatic_packing',
+    'create:automatic_shaped',
+    'create:automatic_shapeless',
+    'minecraft:plugins/tag',
+    'charcoal_pit:distill',
+    'charcoal_pit:hot_blasting',
+    'charcoal_pit:squish',
+    'rankine:crucible',
+    'rankine:foraging',
+    'twilightforest:uncrafting',
+    'biomancy:bio_forging',
+    'occultism:miner',
+    'pneumaticcraft:spawner_extraction',
+    'farmingforblockheads:market',
+    'rankine:fusion_furnace',
+    'rankine:cauldron_drying',
+  ]);
 });

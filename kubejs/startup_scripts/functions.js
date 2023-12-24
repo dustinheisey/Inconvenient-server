@@ -1,5 +1,5 @@
-global.toTitleCase = (string) =>
-    string
-        .split("_")
-        .map((it) => Utils.toTitleCase(it))
-        .join(" ");
+global.toTitleCase = string =>
+  string
+    .split('_')
+    .map(it => Utils.toTitleCase(it))
+    .join(' ');

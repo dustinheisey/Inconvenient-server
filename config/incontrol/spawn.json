@@ -26,7 +26,7 @@
       "totemic:baykok",
       "blue_skies:stardust_ram",
       "twilightforest:bighorn_sheep",
-      "cold_sweat:chameleon"
+      "totemic:bald_eagle"
     ],
     "result": "deny"
   },
@@ -39,12 +39,6 @@
   },
 
   {
-    "mob": ["cold_sweat:chameleon"],
-    "dimension": "undergarden:undergarden",
-    "result": "allow"
-  },
-
-  {
     "mob": [
       "minecraft:axolotl",
       "minecraft:cod",
@@ -52,14 +46,10 @@
       "minecraft:drowned",
       "minecraft:glow_squid",
       "minecraft:pufferfish",
-      "minecraft:goat",
       "minecraft:salmon",
       "minecraft:skeleton",
-      "minecraft:skeleton_horse",
-      "minecraft:horse",
       "minecraft:polar_bear",
       "minecraft:squid",
-      "minecraft:stray",
       "minecraft:tropical_fish",
       "minecraft:turtle",
       "minecraft:witch"
@@ -72,23 +62,18 @@
       "minecraft:axolotl",
       "minecraft:cod",
       "minecraft:dolphin",
-      "minecraft:goat",
       "minecraft:drowned",
       "minecraft:glow_squid",
       "minecraft:pufferfish",
       "minecraft:polar_bear",
       "minecraft:salmon",
       "minecraft:skeleton",
-      "minecraft:skeleton_horse",
-      "minecraft:horse",
       "minecraft:squid",
-      "minecraft:stray",
       "minecraft:tropical_fish",
       "minecraft:turtle",
-      "minecraft:witch",
-      "cold_sweat:chameleon"
+      "minecraft:witch"
     ],
-    "gamestage": "gateway_aquatic",
+    "gamestage": "restoration_aquatic",
     "dimension": "minecraft:overworld",
     "result": "allow"
   },
@@ -97,10 +82,8 @@
     "mob": [
       "minecraft:bat",
       "minecraft:creeper",
-      "minecraft:ocelot",
-      "minecraft:panda",
       "minecraft:slime",
-      "minecraft:parrot"
+      "cold_sweat:chameleon"
     ],
     "dimension": "minecraft:overworld",
     "result": "deny"
@@ -109,55 +92,48 @@
     "mob": [
       "minecraft:bat",
       "minecraft:creeper",
-      "minecraft:ocelot",
-      "minecraft:panda",
       "minecraft:slime",
-      "minecraft:parrot"
+      "cold_sweat:chameleon"
     ],
-    "gamestage": "gateway_forgotten",
+    "gamestage": "restoration_forgotten",
     "dimension": "minecraft:overworld",
     "result": "allow"
   },
 
   {
-    "mob": ["minecraft:cave_spider", "minecraft:spider", "minecraft:donkey"],
+    "mob": [
+      "minecraft:cave_spider",
+      "minecraft:spider",
+      "minecraft:parrot",
+      "minecraft:ocelot",
+      "minecraft:panda",
+      "minecraft:fox"
+    ],
     "dimension": "minecraft:overworld",
     "result": "deny"
   },
   {
     "mob": [
       "minecraft:cave_spider",
-      "minecraft:slime",
       "minecraft:spider",
-      "minecraft:donkey"
+      "minecraft:parrot",
+      "minecraft:ocelot",
+      "minecraft:panda",
+      "minecraft:fox"
     ],
-    "gamestage": "gateway_poisonous",
+    "gamestage": "restoration_poisonous",
     "dimension": "minecraft:overworld",
     "result": "allow"
   },
 
   {
-    "mob": [
-      "minecraft:chicken",
-      "minecraft:fox",
-      "minecraft:rabbit",
-      "minecraft:wolf",
-      "minecraft:llama",
-      "totemic:bald_eagle"
-    ],
+    "mob": ["minecraft:chicken", "minecraft:rabbit", "minecraft:wolf"],
     "dimension": "minecraft:overworld",
     "result": "deny"
   },
   {
-    "mob": [
-      "minecraft:chicken",
-      "minecraft:fox",
-      "minecraft:rabbit",
-      "minecraft:wolf",
-      "minecraft:llama",
-      "totemic:bald_eagle"
-    ],
-    "gamestage": "gateway_magical",
+    "mob": ["minecraft:chicken", "minecraft:rabbit", "minecraft:wolf"],
+    "gamestage": "restoration_magical",
     "dimension": "minecraft:overworld",
     "result": "allow"
   },
@@ -169,7 +145,7 @@
   },
   {
     "mob": ["minecraft:pig", "minecraft:zombified_piglin"],
-    "gamestage": "gateway_hellish",
+    "gamestage": "restoration_hellish",
     "dimension": "minecraft:overworld",
     "result": "allow"
   },
@@ -182,7 +158,13 @@
       "minecraft:villager",
       "minecraft:trader_llama",
       "minecraft:ravager",
-      "minecraft:pillager"
+      "minecraft:pillager",
+      "minecraft:goat",
+      "minecraft:skeleton_horse",
+      "minecraft:horse",
+      "minecraft:stray",
+      "minecraft:donkey",
+      "minecraft:llama"
     ],
     "dimension": "minecraft:overworld",
     "result": "deny"
@@ -195,9 +177,15 @@
       "minecraft:villager",
       "minecraft:trader_llama",
       "minecraft:ravager",
-      "minecraft:pillager"
+      "minecraft:pillager",
+      "minecraft:goat",
+      "minecraft:skeleton_horse",
+      "minecraft:horse",
+      "minecraft:stray",
+      "minecraft:donkey",
+      "minecraft:llama"
     ],
-    "gamestage": "gateway_steampunk",
+    "gamestage": "restoration_sooty",
     "dimension": "minecraft:overworld",
     "result": "allow"
   }

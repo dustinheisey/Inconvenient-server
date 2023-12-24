@@ -1,0 +1,124 @@
+{
+  "name": "From the Bumblezone",
+  "icon": "minecraft:beehive",
+  "category": "patchouli:bestiary",
+  "sortnum": 6,
+  "secret": true,
+  "advancement": "im:gateways/buzzing",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The following bees have started appearing in the overworld ever since I opened the gateway to the Bumblezone:"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:bee",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:leafcutter_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:quarry_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:resin_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:farmer_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:chocolate_mining_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:ashy_mining_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:nomad_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:blue_banded_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:sweat_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:reed_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:mason_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:configurable_bee{type:'productivebees:sugarbag'}"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:yellow_black_carpenter_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:neon_cuckoo_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:configurable_bee{type:'productivebees:sponge'}"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:green_carpenter_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:digger_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "scale": 0.75,
+      "entity": "productivebees:bumble_bee"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:glowing'}",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:zombie'}",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "productivebees:configurable_bee{type:'productivebees:skeletal'}",
+      "scale": 0.75
+    }
+  ]
+}

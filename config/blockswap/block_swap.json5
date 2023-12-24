@@ -1,8 +1,10 @@
 {
 	"generate_all_known_states": false,
-	"retro_gen": false,
+	"retro_gen": true,
 	"state_swapper": [],
 	"swapper": {
+        "blue_skies:bluebright_bookshelf": "twilightforest:empty_canopy_bookshelf",
+        "blue_skies:lunar_bookshelf": "twilightforest:empty_canopy_bookshelf",
         "paraglider:horned_statue": "minecraft:air",
         "blue_skies:bag_of_spoils": "minecraft:air",
         "blue_skies:everbright_emerald_ore": "blue_skies:turquoise_stone",

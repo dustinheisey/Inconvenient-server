@@ -1,256 +1,256 @@
-onEvent("server.datapack.high_priority", (event) => {
-  addAdvancements(event, "stage_4", {
-    icon: "create:brass_hand",
-    item: "create:cinder_flour",
-    title: "Age 4: Engineering",
-    description: "Understand what happened",
-    background: "chipped:textures/block/nether_bricks/nether_bricks_9.png",
+onEvent('server.datapack.high_priority', event => {
+  addAdvancements(event, 'stage_4', {
+    icon: 'create:brass_hand',
+    item: 'create:cinder_flour',
+    title: 'Age 4: Engineering',
+    description: 'Understand what happened',
+    background: 'chipped:textures/block/nether_bricks/nether_bricks_9.png',
     children: [
       {
-        item: "create:mechanical_mixer",
-        title: "Mechanical Mixer",
-        description: "Craft a mechanical mixer",
+        item: 'create:mechanical_mixer',
+        title: 'Mechanical Mixer',
+        description: 'Craft a mechanical mixer',
         children: [
           {
-            item: "create:dough",
-            title: "Dough",
-            description: "Mix some dough",
+            item: 'create:dough',
+            title: 'Dough',
+            description: 'Mix some dough',
             children: [
               {
-                item: "minecraft:bread",
-                title: "Bread",
-                description: "Make your first piece of bread",
+                item: 'minecraft:bread',
+                title: 'Bread',
+                description: 'Make your first piece of bread',
               },
             ],
           },
         ],
       },
       {
-        item: "create:encased_fan",
-        title: "Encased Fan",
-        description: "Crraft an encased fan",
+        item: 'create:encased_fan',
+        title: 'Encased Fan',
+        description: 'Crraft an encased fan',
         children: [
           {
-            item: "minecraft:soul_torch",
-            title: "Soul Torch",
-            description: "Create a soul torch",
+            item: 'minecraft:soul_torch',
+            title: 'Soul Torch',
+            description: 'Create a soul torch',
             children: [
               {
-                item: "cold_sweat:soulspring_lamp",
-                title: "Soulspring Lamp",
-                id: "soulspring_lamp",
+                item: 'cold_sweat:soulspring_lamp',
+                title: 'Soulspring Lamp',
+                id: 'soulspring_lamp',
                 description:
-                  "Craft a soulspring lamp to stay cool in the nether",
+                  'Craft a soulspring lamp to stay cool in the nether',
               },
             ],
           },
         ],
       },
       {
-        item: "create:mechanical_press",
-        title: "Mechanical Press",
-        description: "Craft a mechanical press",
-        frame: "goal",
+        item: 'create:mechanical_press',
+        title: 'Mechanical Press',
+        description: 'Craft a mechanical press',
+        frame: 'goal',
         children: [
           {
-            item: "create:blaze_cake_base",
-            title: "Blaze Cake Base",
-            description: "Create a blaze cake base",
+            item: 'create:blaze_cake_base',
+            title: 'Blaze Cake Base',
+            description: 'Create a blaze cake base',
 
             children: [
               {
-                item: "create:blaze_cake",
-                title: "Blaze Cake",
-                description: "Fill the cake base with lava",
+                item: 'create:blaze_cake',
+                title: 'Blaze Cake',
+                description: 'Fill the cake base with lava',
               },
             ],
           },
           {
-            item: "create:sturdy_sheet",
-            title: "Sturdy Sheet",
-            description: "Press powdered obsidian into a sturdy sheet",
-            frame: "goal",
+            item: 'create:sturdy_sheet',
+            title: 'Sturdy Sheet',
+            description: 'Press powdered obsidian into a sturdy sheet',
+            frame: 'goal',
             children: [
               {
-                item: "bloodmagic:ritualdiviner",
-                title: "Ritual Diviner",
-                description: "Create a ritual diviner",
-                frame: "goal",
+                item: 'bloodmagic:ritualdiviner',
+                title: 'Ritual Diviner',
+                description: 'Create a ritual diviner',
+                frame: 'goal',
                 children: [
                   {
-                    item: "bloodmagic:strong_tau",
-                    title: "Strong Tau Fruit",
+                    item: 'bloodmagic:strong_tau',
+                    title: 'Strong Tau Fruit',
                     description:
-                      "Enter the dungeon dimension and collect strong tau fruit",
-                    frame: "goal",
+                      'Enter the dungeon dimension and collect strong tau fruit',
+                    frame: 'goal',
                     children: [
                       {
-                        item: "bloodmagic:weakbloodshard",
-                        title: "Weak Blood Shard",
-                        description: "Create a weak blood shard",
-                        frame: "challenge",
+                        item: 'bloodmagic:weakbloodshard',
+                        title: 'Weak Blood Shard',
+                        description: 'Create a weak blood shard',
+                        frame: 'challenge',
                         children: [
                           {
-                            item: "occultism:chalk_red",
-                            title: "Red Chalk",
-                            description: "Craft some red chalk",
+                            item: 'occultism:chalk_red',
+                            title: 'Red Chalk',
+                            description: 'Craft some red chalk',
                             children: [
                               {
-                                item: "occultism:infused_pickaxe",
-                                title: "Infused Pickaxe",
-                                description: "Craft an infused pickaxe",
+                                item: 'occultism:infused_pickaxe',
+                                title: 'Infused Pickaxe',
+                                description: 'Craft an infused pickaxe',
                               },
                             ],
                           },
                           {
-                            item: "bloodmagic:masterbloodorb",
+                            item: 'bloodmagic:masterbloodorb',
                             title: "Magician's Blood Orb",
                             description: "Create a magician's blood orb",
                           },
                           {
-                            icon: "farmersrespite:purulent_tea",
-                            title: "Purulent Tea",
-                            description: "Brew & drink some Purulent Tea",
-                            frame: "goal",
-                            reward: "im:dimensions/nether",
+                            icon: 'farmersrespite:purulent_tea',
+                            title: 'Purulent Tea',
+                            description: 'Brew & drink some Purulent Tea',
+                            frame: 'goal',
+                            reward: 'im:dimensions/nether',
                             criteria: {
                               consume: {
-                                trigger: "minecraft:consume_item",
+                                trigger: 'minecraft:consume_item',
                                 conditions: {
                                   item: {
-                                    items: ["farmersrespite:purulent_tea"],
+                                    items: ['farmersrespite:purulent_tea'],
                                   },
                                 },
                               },
                             },
                             children: [
                               {
-                                icon: "netherrack",
-                                title: "Nether",
+                                icon: 'netherrack',
+                                title: 'Nether',
                                 criteria: {
                                   dimension_change: {
-                                    trigger: "minecraft:changed_dimension",
+                                    trigger: 'minecraft:changed_dimension',
                                     conditions: {
-                                      from: "minecraft:overworld",
-                                      to: "minecraft:the_nether",
+                                      from: 'minecraft:overworld',
+                                      to: 'minecraft:the_nether',
                                     },
                                   },
                                 },
-                                description: "Enter the nether",
-                                frame: "goal",
+                                description: 'Enter the nether',
+                                frame: 'goal',
                                 children: [
                                   {
-                                    item: "occultism:iesnium_ingot",
-                                    title: "Iesnium Ingot",
-                                    description: "Forge an iesnium ingot",
+                                    item: 'occultism:iesnium_ingot',
+                                    title: 'Iesnium Ingot',
+                                    description: 'Forge an iesnium ingot',
                                     children: [
                                       {
-                                        item: "occultism:storage_controller",
-                                        title: "Dimensional Storage",
+                                        item: 'occultism:storage_controller',
+                                        title: 'Dimensional Storage',
                                         description:
-                                          "Craft a Dimensional Storage Actuator",
+                                          'Craft a Dimensional Storage Actuator',
                                       },
                                       {
-                                        item: "occultism:soul_gem",
-                                        title: "Soul Gem",
-                                        description: "Create a soul gem",
+                                        item: 'occultism:soul_gem',
+                                        title: 'Soul Gem',
+                                        description: 'Create a soul gem',
                                         children: [
                                           {
-                                            item: "occultism:familiar_ring",
-                                            title: "Familiar Ring",
+                                            item: 'occultism:familiar_ring',
+                                            title: 'Familiar Ring',
                                             description:
-                                              "Create a familiar ring",
+                                              'Create a familiar ring',
                                           },
                                         ],
                                       },
                                     ],
                                   },
                                   {
-                                    item: "rankine:sulfur",
-                                    title: "Sulfur",
-                                    description: "Mine some sulfur",
+                                    item: 'rankine:sulfur',
+                                    title: 'Sulfur',
+                                    description: 'Mine some sulfur',
                                     children: [
                                       {
-                                        item: "minecraft:gunpowder",
-                                        title: "Gunpowder",
-                                        description: "Create gunpowder",
+                                        item: 'minecraft:gunpowder',
+                                        title: 'Gunpowder',
+                                        description: 'Create gunpowder',
                                       },
                                     ],
                                   },
                                   {
-                                    item: "minecraft:netherite_ingot",
-                                    title: "Netherite",
-                                    description: "Forge a netherite ingot",
+                                    item: 'minecraft:netherite_ingot',
+                                    title: 'Netherite',
+                                    description: 'Forge a netherite ingot',
                                     children: [
                                       {
-                                        item: "cataclysm:witherite_ingot",
-                                        title: "Witherite",
+                                        item: 'cataclysm:witherite_ingot',
+                                        title: 'Witherite',
                                         description:
-                                          "Infuse the netherite with the essence of a wither",
+                                          'Infuse the netherite with the essence of a wither',
                                       },
                                     ],
                                   },
                                   {
-                                    item: "minecraft:gold_ingot",
-                                    title: "Gold",
-                                    description: "Forge a gold ingot",
+                                    item: 'minecraft:gold_ingot',
+                                    title: 'Gold',
+                                    description: 'Forge a gold ingot',
                                     children: [
                                       {
-                                        item: "rankine:rose_gold_ingot",
-                                        title: "Rose Gold",
-                                        description: "Create a rose gold ingot",
+                                        item: 'rankine:rose_gold_ingot',
+                                        title: 'Rose Gold',
+                                        description: 'Create a rose gold ingot',
                                         children: [
                                           {
-                                            item: "naturesaura:tainted_gold",
-                                            title: "Tainted Gold",
+                                            item: 'naturesaura:tainted_gold',
+                                            title: 'Tainted Gold',
                                             description:
-                                              "Collect a tainted gold ingot from a crimson altar",
+                                              'Collect a tainted gold ingot from a crimson altar',
                                           },
                                         ],
                                       },
                                     ],
                                   },
                                   {
-                                    item: "cataclysm:ignitium_ingot",
-                                    title: "Ignitium",
+                                    item: 'cataclysm:ignitium_ingot',
+                                    title: 'Ignitium',
                                     description:
-                                      "Collect or forge an ignitium ingot",
+                                      'Collect or forge an ignitium ingot',
                                     children: [
                                       {
-                                        item: "rankine:evaporation_tower",
-                                        title: "Evaporation Tower",
+                                        item: 'rankine:evaporation_tower',
+                                        title: 'Evaporation Tower',
                                         description:
-                                          "Construct an evaporation tower",
+                                          'Construct an evaporation tower',
                                         children: [
                                           {
-                                            item: "rankine:vulcanized_rubber",
-                                            title: "Vulcanized Rubber",
+                                            item: 'rankine:vulcanized_rubber',
+                                            title: 'Vulcanized Rubber',
                                             description:
-                                              "Collect some vulcanized rubber",
+                                              'Collect some vulcanized rubber',
                                           },
                                         ],
                                       },
                                     ],
                                   },
                                   {
-                                    item: "tconstruct:cobalt_ingot",
-                                    title: "Cobalt",
-                                    description: "Forge a cobalt ingot",
+                                    item: 'tconstruct:cobalt_ingot',
+                                    title: 'Cobalt',
+                                    description: 'Forge a cobalt ingot',
                                     children: [
                                       {
-                                        item: "tconstruct:manyullyn_ingot",
-                                        title: "Manyullyn",
-                                        description: "Forge a manyullyn ingot",
+                                        item: 'tconstruct:manyullyn_ingot',
+                                        title: 'Manyullyn',
+                                        description: 'Forge a manyullyn ingot',
                                         children: [
                                           {
-                                            item: "waystones:warp_stone",
-                                            title: "Warp Stone",
-                                            description: "Create a warp stone",
+                                            item: 'waystones:warp_stone',
+                                            title: 'Warp Stone',
+                                            description: 'Create a warp stone',
                                             children: [
                                               {
-                                                item: "waystones:waystone",
-                                                title: "Waystone",
-                                                description: "Craft a waystone",
+                                                item: 'waystones:waystone',
+                                                title: 'Waystone',
+                                                description: 'Craft a waystone',
                                               },
                                             ],
                                           },
@@ -259,154 +259,154 @@ onEvent("server.datapack.high_priority", (event) => {
                                     ],
                                   },
                                   {
-                                    item: "farmersdelight:ham",
-                                    title: "Ham",
+                                    item: 'farmersdelight:ham',
+                                    title: 'Ham',
                                     description:
-                                      "Collect some ham from a slaughtered pig",
-                                    frame: "goal",
+                                      'Collect some ham from a slaughtered pig',
+                                    frame: 'goal',
                                     children: [
                                       {
-                                        item: "tconstruct:pig_iron_ingot",
-                                        title: "Pig Iron",
-                                        description: "Forge a pig iron ingot",
-                                        frame: "goal",
+                                        item: 'tconstruct:pig_iron_ingot',
+                                        title: 'Pig Iron',
+                                        description: 'Forge a pig iron ingot',
+                                        frame: 'goal',
 
                                         children: [
                                           {
-                                            item: "rankine:promethium_ingot",
-                                            title: "Promethium",
+                                            item: 'rankine:promethium_ingot',
+                                            title: 'Promethium',
                                             description:
-                                              "Create a promethium ingot",
-                                            frame: "goal",
+                                              'Create a promethium ingot',
+                                            frame: 'goal',
                                             children: [
                                               {
-                                                item: "create:electron_tube",
-                                                title: "Electron Tube",
+                                                item: 'create:electron_tube',
+                                                title: 'Electron Tube',
                                                 description:
-                                                  "Craft some electron tubes",
+                                                  'Craft some electron tubes',
                                                 count: 2,
-                                                frame: "goal",
+                                                frame: 'goal',
                                                 children: [
                                                   {
-                                                    item: "create:mechanical_crafter",
-                                                    title: "Mechanical Crafter",
+                                                    item: 'create:mechanical_crafter',
+                                                    title: 'Mechanical Crafter',
                                                     description:
-                                                      "Craft a mechanical crafter",
-                                                    frame: "goal",
+                                                      'Craft a mechanical crafter',
+                                                    frame: 'goal',
                                                     children: [
                                                       {
-                                                        item: "create:crushing_wheel",
-                                                        title: "Crushing Wheel",
+                                                        item: 'create:crushing_wheel',
+                                                        title: 'Crushing Wheel',
                                                         description:
-                                                          "Craft some crushing wheels",
+                                                          'Craft some crushing wheels',
                                                         count: 2,
                                                       },
                                                       {
-                                                        item: "hem:teir_one_computer",
-                                                        title: "Computer",
+                                                        item: 'hem:teir_one_computer',
+                                                        title: 'Computer',
                                                         description:
-                                                          "Craft a computer",
+                                                          'Craft a computer',
                                                         reward:
-                                                          "im:dimension/blueleaf",
-                                                        frame: "goal",
+                                                          'im:dimension/blueleaf',
+                                                        frame: 'goal',
                                                         children: [
                                                           {
-                                                            icon: "hem:transporter_top",
-                                                            title: "Blueleaf",
+                                                            icon: 'hem:transporter_top',
+                                                            title: 'Blueleaf',
                                                             description:
-                                                              "Craft an steam engine and use it to enter Blueleaf",
-                                                            frame: "goal",
-                                                            id: "potential",
+                                                              'Craft an steam engine and use it to enter Blueleaf',
+                                                            frame: 'goal',
+                                                            id: 'potential',
                                                             criteria: {
                                                               dimension_change:
                                                                 {
                                                                   trigger:
-                                                                    "minecraft:changed_dimension",
+                                                                    'minecraft:changed_dimension',
                                                                   conditions: {
-                                                                    from: "minecraft:overworld",
-                                                                    to: "hem:blueleaf",
+                                                                    from: 'minecraft:overworld',
+                                                                    to: 'hem:blueleaf',
                                                                   },
                                                                 },
                                                             },
                                                             children: [
                                                               {
-                                                                item: "pneumaticcraft:oil_bucket",
-                                                                title: "Oil",
+                                                                item: 'pneumaticcraft:oil_bucket',
+                                                                title: 'Oil',
                                                                 parent:
-                                                                  "potential",
+                                                                  'potential',
                                                                 description:
-                                                                  "Craft a bucket of oil",
+                                                                  'Craft a bucket of oil',
                                                                 frame:
-                                                                  "challenge",
+                                                                  'challenge',
                                                                 children: [
                                                                   {
-                                                                    item: "rankine:carbon",
+                                                                    item: 'rankine:carbon',
                                                                     title:
-                                                                      "Carbon Powder",
+                                                                      'Carbon Powder',
                                                                     description:
-                                                                      "Collect some carbon powder",
+                                                                      'Collect some carbon powder',
                                                                   },
                                                                   {
-                                                                    item: "rankine:silicon",
+                                                                    item: 'rankine:silicon',
                                                                     title:
-                                                                      "Silicon",
+                                                                      'Silicon',
                                                                     description:
-                                                                      "Collect some silicon",
+                                                                      'Collect some silicon',
                                                                   },
                                                                 ],
                                                               },
                                                               {
-                                                                item: "create:chromatic_compound",
+                                                                item: 'create:chromatic_compound',
                                                                 title:
-                                                                  "Chromatic Compound",
-                                                                id: "choice",
+                                                                  'Chromatic Compound',
+                                                                id: 'choice',
                                                                 parent:
-                                                                  "potential",
+                                                                  'potential',
                                                                 description:
-                                                                  "Create a chromatic compound",
-                                                                frame: "goal",
+                                                                  'Create a chromatic compound',
+                                                                frame: 'goal',
                                                                 children: [
                                                                   {
-                                                                    item: "create:refined_radiance",
+                                                                    item: 'create:refined_radiance',
                                                                     title:
-                                                                      "Refined Radiance",
+                                                                      'Refined Radiance',
                                                                     parent:
-                                                                      "choice",
+                                                                      'choice',
                                                                     description:
-                                                                      "Transform the compound into refined radiance",
+                                                                      'Transform the compound into refined radiance',
                                                                     frame:
-                                                                      "goal",
+                                                                      'goal',
                                                                     children: [
                                                                       {
-                                                                        item: "botania:apothecary_default",
+                                                                        item: 'botania:apothecary_default',
                                                                         title:
-                                                                          "Apothecary",
+                                                                          'Apothecary',
                                                                         description:
-                                                                          "Craft an apothecary",
+                                                                          'Craft an apothecary',
                                                                         frame:
-                                                                          "goal",
+                                                                          'goal',
                                                                         children:
                                                                           [
                                                                             {
-                                                                              item: "botania:pure_daisy",
+                                                                              item: 'botania:pure_daisy',
                                                                               title:
-                                                                                "Pure Daisy",
+                                                                                'Pure Daisy',
                                                                               description:
-                                                                                "Make a pure daisy",
+                                                                                'Make a pure daisy',
                                                                               frame:
-                                                                                "goal",
+                                                                                'goal',
                                                                               children:
                                                                                 [
                                                                                   {
-                                                                                    item: "botania:mana_spreader",
+                                                                                    item: 'botania:mana_spreader',
                                                                                     title:
-                                                                                      "Mana Spreader",
+                                                                                      'Mana Spreader',
                                                                                     description:
-                                                                                      "Craft a mana spreader",
+                                                                                      'Craft a mana spreader',
                                                                                     frame:
-                                                                                      "challenge",
+                                                                                      'challenge',
                                                                                     reward:
-                                                                                      "im:stages/stage_5_1",
+                                                                                      'im:stages/stage_5_1',
                                                                                   },
                                                                                 ],
                                                                             },
@@ -415,46 +415,46 @@ onEvent("server.datapack.high_priority", (event) => {
                                                                     ],
                                                                   },
                                                                   {
-                                                                    item: "create:shadow_steel",
+                                                                    item: 'create:shadow_steel',
                                                                     title:
-                                                                      "Shadow Steel",
+                                                                      'Shadow Steel',
                                                                     parent:
-                                                                      "choice",
+                                                                      'choice',
                                                                     description:
-                                                                      "Transform the compound into shadow steel",
+                                                                      'Transform the compound into shadow steel',
                                                                     frame:
-                                                                      "goal",
+                                                                      'goal',
                                                                     children: [
                                                                       {
-                                                                        item: "extendedcrafting:advanced_table",
+                                                                        item: 'extendedcrafting:advanced_table',
                                                                         title:
-                                                                          "Advanced Table",
+                                                                          'Advanced Table',
                                                                         description:
-                                                                          "Craft an advanced table",
+                                                                          'Craft an advanced table',
                                                                         frame:
-                                                                          "goal",
+                                                                          'goal',
                                                                         children:
                                                                           [
                                                                             {
-                                                                              item: "immersive_aircraft:engine",
+                                                                              item: 'immersive_aircraft:engine',
                                                                               title:
-                                                                                "Engine",
+                                                                                'Engine',
                                                                               description:
-                                                                                "Craft an engine",
+                                                                                'Craft an engine',
                                                                               frame:
-                                                                                "goal",
+                                                                                'goal',
                                                                               children:
                                                                                 [
                                                                                   {
-                                                                                    item: "createaddition:alternator",
+                                                                                    item: 'createaddition:alternator',
                                                                                     title:
-                                                                                      "Alternator",
+                                                                                      'Alternator',
                                                                                     description:
-                                                                                      "Craft an alternator",
+                                                                                      'Craft an alternator',
                                                                                     frame:
-                                                                                      "challenge",
+                                                                                      'challenge',
                                                                                     reward:
-                                                                                      "im:stages/stage_5_2",
+                                                                                      'im:stages/stage_5_2',
                                                                                   },
                                                                                 ],
                                                                             },
@@ -479,41 +479,41 @@ onEvent("server.datapack.high_priority", (event) => {
                                     ],
                                   },
                                   {
-                                    item: "rankine:aluminum_ingot",
-                                    title: "Aluminum",
-                                    description: "Forge an aluminum ingot",
+                                    item: 'rankine:aluminum_ingot',
+                                    title: 'Aluminum',
+                                    description: 'Forge an aluminum ingot',
                                     children: [
                                       {
-                                        item: "rankine:distillation_tower",
-                                        title: "Distillation Tower",
+                                        item: 'rankine:distillation_tower',
+                                        title: 'Distillation Tower',
                                         description:
-                                          "Construct a distillation tower",
+                                          'Construct a distillation tower',
                                         children: [
                                           {
-                                            item: "rankine:carbon_dioxide_gas_bottle",
-                                            title: "Carbon Dioxide",
+                                            item: 'rankine:carbon_dioxide_gas_bottle',
+                                            title: 'Carbon Dioxide',
                                             description:
-                                              "Collect a bottle of carbon dioxide from the nether",
+                                              'Collect a bottle of carbon dioxide from the nether',
                                           },
                                         ],
                                       },
                                     ],
                                   },
                                   {
-                                    item: "rankine:zinc_ingot",
-                                    title: "Zinc",
-                                    description: "Forge a zinc ingot",
+                                    item: 'rankine:zinc_ingot',
+                                    title: 'Zinc',
+                                    description: 'Forge a zinc ingot',
                                     children: [
                                       {
-                                        item: "rankine:brass_ingot",
-                                        title: "Brass",
-                                        description: "Forge a brass ingot",
+                                        item: 'rankine:brass_ingot',
+                                        title: 'Brass',
+                                        description: 'Forge a brass ingot',
                                         children: [
                                           {
-                                            item: "rankine:alloy_furnace",
-                                            title: "Alloy Furnace",
+                                            item: 'rankine:alloy_furnace',
+                                            title: 'Alloy Furnace',
                                             description:
-                                              "Craft an alloy furnace",
+                                              'Craft an alloy furnace',
                                           },
                                         ],
                                       },
@@ -530,19 +530,19 @@ onEvent("server.datapack.high_priority", (event) => {
                 ],
               },
               {
-                item: "bloodmagic:soulforge",
-                title: "Hellfire Forge",
-                description: "Create a hellfire forge",
+                item: 'bloodmagic:soulforge',
+                title: 'Hellfire Forge',
+                description: 'Create a hellfire forge',
                 children: [
                   {
-                    item: "bloodmagic:simplekey",
-                    title: "Simple Dungeon Key",
-                    description: "Craft some keys for the dungeon dimension",
+                    item: 'bloodmagic:simplekey',
+                    title: 'Simple Dungeon Key',
+                    description: 'Craft some keys for the dungeon dimension',
                   },
                   {
-                    item: "bloodmagic:sanguinereverter",
-                    title: "Sanguine Reverter",
-                    description: "Create a sanguine reverter",
+                    item: 'bloodmagic:sanguinereverter',
+                    title: 'Sanguine Reverter',
+                    description: 'Create a sanguine reverter',
                   },
                 ],
               },
@@ -551,24 +551,24 @@ onEvent("server.datapack.high_priority", (event) => {
         ],
       },
       {
-        item: "adchimneys:wooden_paintbrush",
-        title: "Paintbrush",
-        description: "Craft a wooden paintbrush",
+        item: 'adchimneys:wooden_paintbrush',
+        title: 'Paintbrush',
+        description: 'Craft a wooden paintbrush',
         children: [
           {
-            item: "adchimneys:metal_chimney",
-            title: "Chimney",
-            description: "Craft a metal chimney",
+            item: 'adchimneys:metal_chimney',
+            title: 'Chimney',
+            description: 'Craft a metal chimney',
             children: [
               {
-                item: "adchimneys:metal_vent",
-                title: "Vent",
-                description: "Craft a metal vent",
+                item: 'adchimneys:metal_vent',
+                title: 'Vent',
+                description: 'Craft a metal vent',
                 children: [
                   {
-                    item: "adchimneys:metal_pump",
-                    title: "Pump",
-                    description: "Craft a metal pump",
+                    item: 'adchimneys:metal_pump',
+                    title: 'Pump',
+                    description: 'Craft a metal pump',
                   },
                 ],
               },

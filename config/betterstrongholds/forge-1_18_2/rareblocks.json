@@ -4,7 +4,7 @@
       "minecraft:gold_block": 0.3,
       "minecraft:quartz_block": 0.3,
       "minecraft:iron_block": 0.3,
-      "minecraft:diamond_block": 0.1
+      "minecraft:diamond_block": 0.0
     },
     "defaultBlock": "minecraft:iron_block"
   }

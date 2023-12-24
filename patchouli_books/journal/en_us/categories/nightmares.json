@@ -1,7 +1,7 @@
 {
-    "name": "Nightmares",
-    "description": "Sometimes I have nightmares that reveal something about my past. I will describe them.",
-    "icon": "comforts:sleeping_bag_white",
-    "sortnum": 2,
-    "secret": true
+  "name": "Nightmares",
+  "description": "Sometimes I have nightmares that reveal something about my past. I will describe them.",
+  "icon": "endrem:lost_eye",
+  "sortnum": 2,
+  "secret": true
 }

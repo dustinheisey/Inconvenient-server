@@ -10,7 +10,7 @@
   },
   "rareHelmets": {
     "entries": {
-      "diamond_helmet": 0.3,
+      "diamond_helmet": 0.0,
       "carved_pumpkin": 0.2
     },
     "defaultItem": "air"
@@ -25,7 +25,7 @@
   },
   "rareChestplates": {
     "entries": {
-      "diamond_chestplate": 0.3
+      "diamond_chestplate": 0.0
     },
     "defaultItem": "air"
   },
@@ -39,7 +39,7 @@
   },
   "rareLeggings": {
     "entries": {
-      "diamond_leggings": 0.3
+      "diamond_leggings": 0.0
     },
     "defaultItem": "air"
   },
@@ -53,7 +53,7 @@
   },
   "rareBoots": {
     "entries": {
-      "diamond_boots": 0.3
+      "diamond_boots": 0.0
     },
     "defaultItem": "air"
   }

@@ -1,8 +1,8 @@
 {
-    "values": [
-        {
-            "factor": 1,
-            "value": "biomancy:flesh_blob"
-        }
-    ]
+  "values": [
+    {
+      "factor": 1,
+      "value": "biomancy:flesh_blob"
+    }
+  ]
 }

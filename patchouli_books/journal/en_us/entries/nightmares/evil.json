@@ -1,0 +1,30 @@
+{
+  "name": "",
+  "icon": "endrem:evil_eye",
+  "category": "patchouli:nightmares",
+  "sortnum": 10,
+  "secret": true,
+  "advancement": "im:eyes/evil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

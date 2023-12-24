@@ -1,9 +1,9 @@
-onEvent("recipes", (event) => {
+onEvent('recipes', event => {
   new recipes(event)
-    .setType("rankine:mixing")
-    .setFunction((config) => {
+    .setType('rankine:mixing')
+    .setFunction(config => {
       let json = {
-        type: "rankine:mixing",
+        type: 'rankine:mixing',
         mixTime: 100,
         ingredientTotal: config.inputs.length,
         matScale: 1,
@@ -32,313 +32,313 @@ onEvent("recipes", (event) => {
       event.custom(json);
     })
     .removeOutputs([
-      "rankine:unaged_cheese",
-      "rankine:tofu",
-      "rankine:pumice_soap",
-      "rankine:pancake_batter",
-      "rankine:fire_clay_ball",
-      "rankine:beta_alumina_solid_electrolyte",
-      "rankine:dough",
-      "rankine:bitumen",
-      "rankine:mariposite",
-      "rankine:cement_mix",
-      "rankine:porcelain_clay_ball",
+      'rankine:unaged_cheese',
+      'rankine:tofu',
+      'rankine:pumice_soap',
+      'rankine:pancake_batter',
+      'rankine:fire_clay_ball',
+      'rankine:beta_alumina_solid_electrolyte',
+      'rankine:dough',
+      'rankine:bitumen',
+      'rankine:mariposite',
+      'rankine:cement_mix',
+      'rankine:porcelain_clay_ball',
     ])
     .modifyOutputs([
       {
         fluid_input: {
-          id: "minecraft:water",
+          id: 'minecraft:water',
           amount: 50,
         },
         inputs: [
           {
-            tag: "minecraft:dirt",
+            tag: 'minecraft:dirt',
             min: 0.4,
             max: 0.6,
           },
           {
-            tag: "minecraft:sand",
+            tag: 'minecraft:sand',
             min: 0.4,
             max: 0.6,
           },
           {
-            id: "paragon_textiles:plant_fibers",
+            id: 'paragon_textiles:plant_fibers',
             min: 0.05,
             max: 0.25,
           },
         ],
-        output: "rankine:cob",
+        output: 'rankine:cob',
       },
       {
         fluid_input: {
-          id: "minecraft:water",
+          id: 'minecraft:water',
           amount: 50,
         },
         inputs: [
           {
-            tag: "minecraft:sand",
+            tag: 'minecraft:sand',
             min: 0.6,
             max: 0.75,
           },
           {
-            id: "rankine:fire_clay_ball",
+            id: 'rankine:fire_clay_ball',
             min: 0.05,
             max: 0.2,
           },
           {
-            id: "paragon_textiles:plant_fibers",
+            id: 'paragon_textiles:plant_fibers',
             min: 0.2,
             max: 0.5,
           },
         ],
-        output: "rankine:refined_cob",
+        output: 'rankine:refined_cob',
       },
       {
         fluid_input: {
-          id: "minecraft:water",
+          id: 'minecraft:water',
           amount: 100,
         },
         inputs: [
           {
-            tag: "minecraft:sand",
+            tag: 'minecraft:sand',
             min: 0.5,
             max: 0.8,
           },
           {
-            id: "rankine:mortar",
+            id: 'rankine:mortar',
             min: 0.2,
             max: 0.5,
           },
         ],
-        output: "rankine:roman_concrete",
+        output: 'rankine:roman_concrete',
       },
       {
         fluid_input: {
-          id: "minecraft:water",
+          id: 'minecraft:water',
           amount: 100,
         },
         inputs: [
           {
-            tag: "minecraft:sand",
+            tag: 'minecraft:sand',
             min: 0.5,
             max: 0.8,
           },
           {
-            id: "rankine:quicklime",
+            id: 'rankine:quicklime',
             min: 0.2,
             max: 0.5,
           },
         ],
-        output: "rankine:mortar",
+        output: 'rankine:mortar',
       },
     ])
     .add([
       {
         fluid_input: {
-          id: "minecraft:water",
+          id: 'minecraft:water',
           amount: 50,
         },
         inputs: [
           {
-            tag: "forge:gravel",
+            tag: 'forge:gravel',
             min: 0.4,
             max: 0.6,
           },
           {
-            tag: "forge:sand",
+            tag: 'forge:sand',
             min: 0.2,
             max: 0.3,
           },
           {
-            tag: "forge:bitumen",
+            tag: 'forge:bitumen',
             min: 0.1,
             max: 0.2,
           },
         ],
-        output: "rankine:asphalt",
+        output: 'rankine:asphalt',
       },
       {
         fluid_input: {
-          id: "minecraft:water",
+          id: 'minecraft:water',
           amount: 50,
         },
         inputs: [
           {
-            tag: "forge:gravel",
+            tag: 'forge:gravel',
             min: 0.4,
             max: 0.6,
           },
           {
-            tag: "forge:sand",
+            tag: 'forge:sand',
             min: 0.2,
             max: 0.3,
           },
           {
-            tag: "forge:bitumen",
+            tag: 'forge:bitumen',
             min: 0.1,
             max: 0.2,
           },
           {
-            id: "rankine:black_dacite",
+            id: 'rankine:black_dacite',
             min: 0.1,
             max: 0.2,
           },
         ],
-        output: "rankine:blue_asphalt",
+        output: 'rankine:blue_asphalt',
       },
       {
         fluid_input: {
-          id: "minecraft:water",
+          id: 'minecraft:water',
           amount: 50,
         },
         inputs: [
           {
-            tag: "forge:gravel",
+            tag: 'forge:gravel',
             min: 0.4,
             max: 0.6,
           },
           {
-            tag: "forge:sand",
+            tag: 'forge:sand',
             min: 0.2,
             max: 0.3,
           },
           {
-            tag: "forge:bitumen",
+            tag: 'forge:bitumen',
             min: 0.1,
             max: 0.2,
           },
           {
-            id: "rankine:black_marble",
+            id: 'rankine:black_marble',
             min: 0.1,
             max: 0.2,
           },
         ],
-        output: "rankine:dark_gray_asphalt",
+        output: 'rankine:dark_gray_asphalt',
       },
       {
         fluid_input: {
-          id: "minecraft:water",
+          id: 'minecraft:water',
           amount: 50,
         },
         inputs: [
           {
-            tag: "forge:gravel",
+            tag: 'forge:gravel',
             min: 0.4,
             max: 0.6,
           },
           {
-            tag: "forge:sand",
+            tag: 'forge:sand',
             min: 0.2,
             max: 0.3,
           },
           {
-            tag: "forge:bitumen",
+            tag: 'forge:bitumen',
             min: 0.1,
             max: 0.2,
           },
           {
-            tag: "forge:stones/andesite",
+            tag: 'forge:stones/andesite',
             min: 0.1,
             max: 0.2,
           },
         ],
-        output: "rankine:gray_asphalt",
+        output: 'rankine:gray_asphalt',
       },
       {
         fluid_input: {
-          id: "minecraft:water",
+          id: 'minecraft:water',
           amount: 50,
         },
         inputs: [
           {
-            tag: "forge:gravel",
+            tag: 'forge:gravel',
             min: 0.4,
             max: 0.6,
           },
           {
-            tag: "forge:sand",
+            tag: 'forge:sand',
             min: 0.2,
             max: 0.3,
           },
           {
-            tag: "forge:bitumen",
+            tag: 'forge:bitumen',
             min: 0.1,
             max: 0.2,
           },
           {
-            tag: "forge:stones/peridotite",
+            tag: 'forge:stones/peridotite',
             min: 0.1,
             max: 0.2,
           },
         ],
-        output: "rankine:green_asphalt",
+        output: 'rankine:green_asphalt',
       },
       {
         fluid_input: {
-          id: "minecraft:water",
+          id: 'minecraft:water',
           amount: 50,
         },
         inputs: [
           {
-            tag: "forge:gravel",
+            tag: 'forge:gravel',
             min: 0.4,
             max: 0.6,
           },
           {
-            tag: "forge:sand",
+            tag: 'forge:sand',
             min: 0.2,
             max: 0.3,
           },
           {
-            tag: "forge:bitumen",
+            tag: 'forge:bitumen',
             min: 0.1,
             max: 0.2,
           },
           {
-            tag: "forge:stones/granite",
+            tag: 'forge:stones/granite',
             min: 0.1,
             max: 0.2,
           },
         ],
-        output: "rankine:red_asphalt",
+        output: 'rankine:red_asphalt',
       },
       {
-        fluid_input: { id: "minecraft:water", amount: 20 },
+        fluid_input: {id: 'minecraft:water', amount: 20},
         inputs: [
-          { tag: "forge:stones/pumice", min: 0.9, max: 0.95 },
-          { tag: "rankine:alkali_hydroxides", min: 0.05, max: 0.1 },
+          {tag: 'forge:stones/pumice', min: 0.9, max: 0.95},
+          {tag: 'rankine:alkali_hydroxides', min: 0.05, max: 0.1},
         ],
-        output: "rankine:pumice_soap",
+        output: 'rankine:pumice_soap',
       },
       {
         fluid_input: {
-          id: "kubejs:tanning_fluid",
+          id: 'kubejs:tanning_fluid',
           amount: 250,
         },
         inputs: [
           {
-            id: "kubejs:dried_hide",
+            id: 'kubejs:dried_hide',
             required: true,
             min: 1.0,
             max: 1.0,
           },
         ],
-        output: "kubejs:wet_tanned_hide",
+        output: 'kubejs:wet_tanned_hide',
       },
       {
         fluid_input: {
-          id: "rankine:resin",
+          id: 'rankine:resin',
           amount: 250,
         },
         inputs: [
           {
-            id: "kubejs:dried_hide",
+            id: 'kubejs:dried_hide',
             required: true,
             min: 1.0,
             max: 1.0,
           },
         ],
-        output: "kubejs:wet_tanned_hide",
+        output: 'kubejs:wet_tanned_hide',
       },
     ]);
 });

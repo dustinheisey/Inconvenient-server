@@ -1,0 +1,29 @@
+{
+  "name": "",
+  "icon": "endrem:old_eye",
+  "category": "patchouli:dreams",
+  "secret": true,
+  "advancement": "im:eyes/old",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

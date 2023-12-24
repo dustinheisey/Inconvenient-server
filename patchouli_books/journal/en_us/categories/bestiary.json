@@ -1,7 +1,7 @@
 {
-    "name": "Bestiary",
-    "description": "Upon opening gateways from each dimension, new fauna starts repopulating in the overworld. I will document them here.",
-    "icon": "gateways:gate_pearl",
-    "sortnum": 4,
-    "secret": true
+  "name": "Bestiary",
+  "description": "Upon opening gateways from each dimension, new fauna starts repopulating in the overworld. I will document them here.",
+  "icon": "gateways:gate_pearl",
+  "sortnum": 4,
+  "secret": true
 }

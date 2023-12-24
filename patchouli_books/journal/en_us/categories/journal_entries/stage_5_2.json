@@ -1,8 +1,8 @@
 {
-    "name": "Industry",
-    "description": "The warnings I have read seem absurd to me. The world is doing fine and I need to push forward.",
-    "icon": "immersiveengineering:wirecoil_copper",
-    "sortnum": 5,
-    "parent": "patchouli:journal_entries",
-    "secret": true
+  "name": "Industry",
+  "description": "The warnings I have read seem absurd to me. The world is doing fine and I need to push forward.",
+  "icon": "immersiveengineering:wirecoil_copper",
+  "sortnum": 5,
+  "parent": "patchouli:journal_entries",
+  "secret": true
 }

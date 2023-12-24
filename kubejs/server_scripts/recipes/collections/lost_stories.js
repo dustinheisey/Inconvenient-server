@@ -1,47 +1,50 @@
-onEvent("recipes", (event) => {
+onEvent('recipes', event => {
   new recipes(event)
-    .setFunction((config) => {
+    .setFunction(config => {
       event.shaped(
         `kubejs:lost_story_${config.dimension}`,
-        ["abb", "bcc", "bcc"],
+        ['abb', 'bcc', 'bcc'],
         {
-          a: "paragon_textiles:silk",
-          b: "minecraft:leather",
+          a: 'paragon_textiles:silk',
+          b: 'minecraft:leather',
           c: `kubejs:lost_page_${config.dimension}`,
         }
       );
     })
     .add([
       {
-        dimension: "everbright",
+        dimension: 'everbright',
       },
       {
-        dimension: "undergarden",
+        dimension: 'undergarden',
       },
       {
-        dimension: "everdawn",
+        dimension: 'everdawn',
       },
       {
-        dimension: "twilight",
+        dimension: 'twilight',
       },
       {
-        dimension: "nether",
+        dimension: 'nether',
       },
       {
-        dimension: "blueleaf",
+        dimension: 'blueleaf',
+      },
+      {
+        dimension: 'bumblezone',
       },
     ]);
 });
 
-onEvent("item.right_click", (event) => {
+onEvent('item.right_click', event => {
   [
-    "everbright",
-    "undergarden",
-    "everdawn",
-    "twilight",
-    "nether",
-    "blueleaf",
-  ].forEach((dimension) => {
+    'everbright',
+    'undergarden',
+    'everdawn',
+    'twilight',
+    'nether',
+    'blueleaf',
+  ].forEach(dimension => {
     if (event.item.id == `kubejs:lost_story_${dimension}`) {
       event.item.count--;
       event.cancel();

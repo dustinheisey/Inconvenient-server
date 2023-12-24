@@ -1,99 +1,99 @@
 {
-    "name": "From Everbright",
-    "icon": "gateways:gate_pearl{gateway:'gateways:aquatic_gate'}",
-    "category": "patchouli:bestiary",
-    "sortnum": 0,
-    "secret": true,
-    "advancement": "im:gateways/aquatic",
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "The following animals have started appearing in the overworld ever since I opened the gateway to Everbright:"
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:cod",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:pufferfish",
-            "scale": 1
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:salmon",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:tropical_fish",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:glow_squid",
-            "scale": 0.5
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:squid",
-            "scale": 0.5
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:dolphin",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:turtle",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:axolotl",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:goat",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:polar_bear",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:drowned",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:guardian",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:skeleton",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:stray",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:skeleton_horse",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:witch",
-            "scale": 0.75
-        }
-    ]
+  "name": "From Everbright",
+  "icon": "gateways:gate_pearl{gateway:'gateways:aquatic_gate'}",
+  "category": "patchouli:bestiary",
+  "sortnum": 0,
+  "secret": true,
+  "advancement": "im:gateways/aquatic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The following animals have started appearing in the overworld ever since I opened the gateway to Everbright:"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cod",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:pufferfish",
+      "scale": 1
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:salmon",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:tropical_fish",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:glow_squid",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:squid",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:dolphin",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:turtle",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:axolotl",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:goat",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:polar_bear",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:drowned",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:guardian",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:skeleton",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:stray",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:skeleton_horse",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:witch",
+      "scale": 0.75
+    }
+  ]
 }

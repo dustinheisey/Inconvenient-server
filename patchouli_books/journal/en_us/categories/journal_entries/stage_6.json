@@ -1,8 +1,8 @@
 {
-    "name": "Curious",
-    "description": "This can't be all there is. This can't be the end to this story.",
-    "sortnum": 6,
-    "icon": "minecraft:compass",
-    "parent": "patchouli:journal_entries",
-    "secret": true
+  "name": "Curious",
+  "description": "This can't be all there is. This can't be the end to this story.",
+  "sortnum": 6,
+  "icon": "minecraft:compass",
+  "parent": "patchouli:journal_entries",
+  "secret": true
 }

@@ -43,11 +43,11 @@ skull_candles = false
 #For example: "minecraft:iron_ore 0.7 8 1 24" would add a stalactite equal to the default iron ore stalactite.
 ["Custom Hollow Hill Stalactites"]
 	#Blocks generating as stalactites in large hills only
-	largeHill = ["rankine:coal_ore 0.7 8 5 36", "rankine:malachite_ore 0.7 8 5 24", "rankine:hematite_ore 0.7 8 5 24", "rankine:cassiterite_ore 0.7 8 5 24", "rankine:galena_ore 0.7 8 5 24", "rankine:acanthite_ore 0.7 8 5 24", "rankine:cinnabar_ore 0.7 8 5 36", "rankine:lazurite_ore 0.7 8 5 36"]
+	largeHill = ["rankine:coal_ore 0.7 8 5 36", "rankine:malachite_ore 0.7 8 5 24", "rankine:hematite_ore 0.7 8 5 24", "rankine:cassiterite_ore 0.7 8 5 24", "rankine:galena_ore 0.7 8 5 24", "rankine:acanthite_ore 0.7 8 5 24", "rankine:cinnabar_ore 0.7 8 5 36", "minecraft:glowstone 0.7 8 5 36", "rankine:lazurite_ore 0.7 8 5 36"]
 	#Blocks generating as stalactites in medium and large hills
-	mediumHill = ["rankine:coal_ore 0.7 8 5 36", "rankine:malachite_ore 0.7 8 5 24", "rankine:hematite_ore 0.7 8 5 24", "rankine:cassiterite_ore 0.7 8 5 24", "rankine:galena_ore 0.7 8 5 24", "rankine:acanthite_ore 0.7 8 5 24", "rankine:cinnabar_ore 0.7 8 5 36", "rankine:lazurite_ore 0.7 8 5 36"]
+	mediumHill = ["rankine:coal_ore 0.7 8 5 36", "rankine:malachite_ore 0.7 8 5 24", "rankine:hematite_ore 0.7 8 5 24", "rankine:cassiterite_ore 0.7 8 5 24", "rankine:galena_ore 0.7 8 5 24", "rankine:acanthite_ore 0.7 8 5 24", "rankine:cinnabar_ore 0.7 8 5 36", "minecraft:glowstone 0.7 8 5 36", "rankine:lazurite_ore 0.7 8 5 36"]
 	#Blocks generating as stalactites in all hills
-	smallHill = ["rankine:coal_ore 0.7 8 5 36", "rankine:malachite_ore 0.7 8 5 24", "rankine:hematite_ore 0.7 8 5 24", "rankine:cassiterite_ore 0.7 8 5 24", "rankine:galena_ore 0.7 8 5 24", "rankine:acanthite_ore 0.7 8 5 24", "rankine:cinnabar_ore 0.7 8 5 36", "rankine:lazurite_ore 0.7 8 5 36"]
+	smallHill = ["rankine:coal_ore 0.7 8 5 36", "rankine:malachite_ore 0.7 8 5 24", "rankine:hematite_ore 0.7 8 5 24", "rankine:cassiterite_ore 0.7 8 5 24", "rankine:galena_ore 0.7 8 5 24", "rankine:acanthite_ore 0.7 8 5 24", "rankine:cinnabar_ore 0.7 8 5 36", "minecraft:glowstone 0.7 8 5 36", "rankine:lazurite_ore 0.7 8 5 36"]
 	#If true, default stalactites and stalactites defined by other mods will not be used.
 	useConfigOnly = true
 
@@ -66,7 +66,7 @@ skull_candles = false
 	#If true, this will invert the above option from a blacklist to a whitelist.
 	flipIdList = false
 	#Disable the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior.
-	disableUncrafting = false
+	disableUncrafting = true
 
 #We recommend downloading the Shield Parry mod for parrying, but these controls remain for without.
 ["Shield Parrying"]

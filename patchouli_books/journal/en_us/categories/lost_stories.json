@@ -1,7 +1,7 @@
 {
-    "name": "Lost Stories",
-    "description": "I have found scraps of paper filled with stories in different dimensions. I will compile and log them.",
-    "icon": "kubejs:lost_story_everbright",
-    "sortnum": 3,
-    "secret": true
+  "name": "Lost Stories",
+  "description": "I have found scraps of paper filled with stories in different dimensions. I will compile and log them.",
+  "icon": "kubejs:lost_story_everbright",
+  "sortnum": 3,
+  "secret": true
 }

@@ -7,18 +7,13 @@
     "create:hose_pulley",
     "betterend:eternal_pedestal"
   ],
-  "entityWhitelist": [
-    "botania:mana_burst"
-  ],
+  "entityWhitelist": ["botania:mana_burst"],
   "tracingDistance": 128,
   "debugMode": false,
   "sleepDelay": 10,
   "hitboxLimit": 50,
   "skipMarkerArmorStands": true,
   "tickCulling": true,
-  "tickCullingWhitelist": [
-    "minecraft:boat",
-    "minecraft:firework_rocket"
-  ],
+  "tickCullingWhitelist": ["minecraft:boat", "minecraft:firework_rocket"],
   "disableF3": true
 }

@@ -1,34 +1,34 @@
 {
-    "name": "From Everdawn",
-    "icon": "gateways:gate_pearl{gateway:'gateways:poisonous_gate'}",
-    "category": "patchouli:bestiary",
-    "sortnum": 2,
-    "secret": true,
-    "advancement": "im:gateways/poisonous",
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "The following animals have started appearing in the overworld ever since I opened the gateway to Everdawn:"
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:donkey",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:spider",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:cave_spider",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:slime",
-            "scale": 1
-        }
-    ]
+  "name": "From Everdawn",
+  "icon": "gateways:gate_pearl{gateway:'gateways:poisonous_gate'}",
+  "category": "patchouli:bestiary",
+  "sortnum": 2,
+  "secret": true,
+  "advancement": "im:gateways/poisonous",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The following animals have started appearing in the overworld ever since I opened the gateway to Everdawn:"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:donkey",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:spider",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:cave_spider",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:slime",
+      "scale": 1
+    }
+  ]
 }

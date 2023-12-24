@@ -1,26 +1,26 @@
 [
-    {
-        "name": "after_day10",
-        "conditions": {
-            "mindaycount": 10
-        }
-    },
-    {
-        "name": "after_day25",
-        "conditions": {
-            "mindaycount": 25
-        }
-    },
-    {
-        "name": "after_day50",
-        "conditions": {
-            "mindaycount": 50
-        }
-    },
-    {
-        "name": "after_day100",
-        "conditions": {
-            "mindaycount": 100
-        }
+  {
+    "name": "after_day10",
+    "conditions": {
+      "mindaycount": 10
     }
+  },
+  {
+    "name": "after_day25",
+    "conditions": {
+      "mindaycount": 25
+    }
+  },
+  {
+    "name": "after_day50",
+    "conditions": {
+      "mindaycount": 50
+    }
+  },
+  {
+    "name": "after_day100",
+    "conditions": {
+      "mindaycount": 100
+    }
+  }
 ]

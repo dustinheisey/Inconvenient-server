@@ -30,9 +30,9 @@
       "block": "minecraft:structure_void"
     },
     {
-        "char": "B",
-        "variant": "stonebrick",
-        "damaged": "minecraft:iron_bars"
+      "char": "B",
+      "variant": "stonebrick",
+      "damaged": "minecraft:iron_bars"
     },
     {
       "char": "v",

@@ -1,411 +1,366 @@
-onEvent("server.datapack.high_priority", (event) => {
-  addAdvancements(event, "stage_3", {
-    icon: "minecraft:spyglass",
-    item: "naturesaura:eye",
-    title: "Age 3: Exploration",
-    description: "Follow the stories & your nightmares",
-    background: "twilightforest:textures/block/mossy_towerwood.png",
+onEvent('server.datapack.high_priority', event => {
+  addAdvancements(event, 'stage_8', {
+    icon: 'minecraft:spyglass',
+    item: 'naturesaura:eye',
+    title: 'Age 3: Exploration',
+    description: 'Search for answers',
+    background: 'undergarden:textures/block/depthrock.png',
     children: [
       {
-        item: "chest",
-        title: "Chest",
-        description: "Craft a chest",
-        children: [
-          {
-            item: "druidcraftrg:crate",
-            title: "Crate",
-            description: "Upgrade your chest",
-          },
-        ],
+        item: 'chest',
+        title: 'Chest',
+        description: 'Craft a chest',
       },
       {
-        item: "naturesaura:aura_bottle",
-        nbt: '{stored_type:"naturesaura:overworld"}',
-        title: "Aura Collection",
-        description: "Collect some aura from the overworld",
-        frame: "goal",
+        item: 'occultism:crushed_end_stone',
+        title: 'Iron Hoe',
+        description: 'Create an iron hoe',
         children: [
           {
-            item: "naturesaura:token_joy",
-            title: "Joy Token",
-            description: "Create a token of joy",
-            frame: "goal",
+            item: 'occultism:chalk_gold',
+            title: 'Golden Chalk',
+            description: 'Craft some golden chalk',
             children: [
               {
-                item: "naturesaura:nature_altar",
-                title: "Nature Altar",
-                description: "Craft a natural altar",
-                frame: "goal",
+                item: 'wither_skeleton_skull',
+                title: 'Wither Skull',
+                description: 'Collect a wither skull from the wild hunt',
+              },
+            ],
+          },
+          {
+            item: 'naturesaura:token_joy',
+            title: 'Iron Hoe',
+            description: 'Create an iron hoe',
+            children: [
+              {
+                item: 'naturesaura:nature_altar',
+                title: 'Iron Hoe',
+                description: 'Create an iron hoe',
                 children: [
                   {
-                    item: "bloodmagic:sacrificialdagger",
-                    title: "Sacrificial Knife",
-                    description: "Create a sacrificial knife",
-                  },
-                  {
-                    item: "naturesaura:infused_iron",
-                    title: "Infused Iron",
-                    description: "Infuse some aura into iron",
-                    frame: "goal",
+                    item: 'rankine:shale',
+                    title: 'Crushing Head',
+                    description: 'Craft a basic crushing head',
                     children: [
                       {
-                        item: "hexerei:blood_bottle",
-                        title: "Blood",
-                        id: "blood",
-                        description: "Collect some of your own blood",
-                        frame: "goal",
+                        item: 'naturesaura:infused_stone',
+                        title: 'Crushing Head',
+                        description: 'Craft a basic crushing head',
+                      },
+                    ],
+                  },
+                  {
+                    item: 'naturesaura:infused_iron',
+                    title: 'Iron Hoe',
+                    description: 'Create an iron hoe',
+                    children: [
+                      {
+                        item: 'undergarden:catalyst',
+                        title: 'Iron Hoe',
+                        description: 'Create an iron hoe',
                         children: [
                           {
-                            parent: "blood",
-                            item: "bloodmagic:altar",
-                            title: "Blood Altar",
-                            description:
-                              "Transform your natural altar with the blood you collected",
-                            frame: "goal",
+                            item: 'undergarden:forgotten_nugget',
+                            frame: 'challenge',
+                            title: 'Iron Hoe',
+                            description: 'Create an iron hoe',
                             children: [
                               {
-                                item: "bloodmagic:basemonstersoul",
-                                title: "Will",
-                                description:
-                                  "Extract will using the soul snares",
-                                frame: "goal",
+                                item: 'malum:spirit_altar',
+                                title: 'Iron Hoe',
+                                description: 'Create an iron hoe',
                                 children: [
                                   {
-                                    item: "minecraft:soul_sand",
-                                    title: "Soul Sand",
-                                    description: "Cast some will onto sand",
-                                    children: [
-                                      {
-                                        item: "minecraft:nether_star",
-                                        title: "Wither",
-                                        description: "Summon & slay the wither",
-                                        children: [
-                                          {
-                                            item: "chunkloaders:single_chunk_loader",
-                                            title: "Chunk Loader",
-                                            description:
-                                              "Create your first chunk loader",
-                                          },
-                                        ],
-                                      },
-                                    ],
+                                    item: 'malum:esoteric_spool',
+                                    title: 'Crushing Head',
+                                    description: 'Craft a basic crushing head',
                                   },
                                   {
-                                    icon: "undergarden:catalyst",
-                                    title: "Catalyst",
-                                    description:
-                                      "Create a catalyst and use it to enter The Undergarden",
-                                    frame: "goal",
-                                    criteria: {
-                                      dimension_change: {
-                                        trigger: "minecraft:changed_dimension",
-                                        conditions: {
-                                          from: "minecraft:overworld",
-                                          to: "undergarden:undergarden",
-                                        },
-                                      },
-                                    },
+                                    item: 'hexerei:blood_bottle',
+                                    title: 'Iron Hoe',
+                                    description: 'Create an iron hoe',
                                     children: [
                                       {
-                                        item: "undergarden:regalium_crystal",
-                                        title: "Regalium Crystal",
-                                        description:
-                                          "Collect some regalium crystals",
+                                        icon: 'bloodmagic:sacrificialdagger',
+                                        tag: 'im:crates',
+                                        title: 'Crate',
+                                        description: 'Upgrade your chest',
                                       },
                                       {
-                                        item: "undergarden:mogmoss",
-                                        title: "Mogmoss",
-                                        description: "Collect some mogmoss",
+                                        item: 'bloodmagic:altar',
+                                        title: 'Iron Hoe',
+                                        description: 'Create an iron hoe',
                                         children: [
                                           {
-                                            item: "bloodmagic:arcaneashes",
-                                            title: "Arcane Ashes",
-                                            description:
-                                              "Ttransmute the mogmoss into arcane ashes",
+                                            item: 'bloodmagic:blankslate',
+                                            title: 'Blank Slate',
+                                            description: 'Create a blank slate',
+                                            reward: 'im:dimensions/undergarden',
                                           },
-                                        ],
-                                      },
-                                      {
-                                        item: "undergarden:stripped_grongle_log",
-                                        title: "Grongle",
-                                        description: "Strip a grongle log",
-                                        children: [
                                           {
-                                            item: "rankine:sawdust",
-                                            title: "Sawdust",
+                                            item: 'bloodmagic:weakbloodorb',
+                                            title: 'Weak Blood Orb',
+                                            description: 'Create a blood orb',
+                                          },
+                                          {
+                                            item: 'bloodmagic:incensealtar',
+                                            title: 'Incense Altar',
                                             description:
-                                              "Crush the log into sawdust",
+                                              'Craft an incense altar',
+                                          },
+                                          {
+                                            item: 'rankine:blood_obsidian',
+                                            title: 'Iron Hoe',
+                                            description: 'Create an iron hoe',
                                             children: [
                                               {
-                                                item: "paper",
-                                                title: "Paper",
+                                                item: 'create:powdered_obsidian',
+                                                title: 'Powdered Obsidian',
                                                 description:
-                                                  "Form a sheet of paper",
-                                              },
-                                            ],
-                                          },
-                                        ],
-                                      },
-                                      {
-                                        item: "undergarden:forgotten_nugget",
-                                        title: "Forgotten Metal",
-                                        description:
-                                          "Collect some forgotten nuggets",
-                                        frame: "challenge",
-                                        children: [
-                                          {
-                                            item: "occultism:satchel",
-                                            title: "Substantial Satchel",
-                                            description:
-                                              "upgrade your bag into a substantial satchel",
-                                          },
-                                          {
-                                            item: "create:andesite_alloy",
-                                            title: "Andesite Alloy",
-                                            description:
-                                              "Cast an andesite alloy",
-                                            frame: "goal",
-                                            children: [
-                                              {
-                                                item: "create:millstone",
-                                                title: "Millstone",
-                                                description:
-                                                  "Craft a millstone",
-                                                frame: "goal",
+                                                  'Grind some blood obsidian in your millstone',
+                                                frame: 'goal',
                                                 children: [
                                                   {
-                                                    icon: "rankine:wheat_grain",
-                                                    tag: "forge:flour",
-                                                    title: "Flour",
+                                                    item: 'occultism:satchel',
+                                                    title:
+                                                      'Substantial Satchel',
                                                     description:
-                                                      "Grind some grain in your millstone",
+                                                      'upgrade your bag into a substantial satchel',
+                                                  },
+                                                ],
+                                              },
+                                              {
+                                                item: 'blue_skies:everdawn_portal',
+                                                title: 'Iron Hoe',
+                                                description:
+                                                  'Create an iron hoe',
+                                                children: [
+                                                  {
+                                                    item: 'blue_skies:horizonite_ingot',
+                                                    title: 'Horizonite',
+                                                    description:
+                                                      'Forge a horizonite ingot',
                                                   },
                                                   {
-                                                    item: "create:powdered_obsidian",
-                                                    title: "Powdered Obsidian",
+                                                    item: 'blue_skies:loot_bag_alchemist',
+                                                    title: 'Iron Hoe',
                                                     description:
-                                                      "Grind some blood obsidian in your millstone",
-                                                    frame: "goal",
+                                                      'Create an iron hoe',
                                                     children: [
                                                       {
-                                                        item: "occultism:chalk_purple",
-                                                        title: "Purple Chalk",
+                                                        item: 'malum:cluster_of_brilliance',
+                                                        title: 'Iron Hoe',
                                                         description:
-                                                          "Craft purple chalk",
+                                                          'Create an iron hoe',
                                                         children: [
                                                           {
-                                                            item: "occultism:afrit_essence",
-                                                            title:
-                                                              "Afrit Essence",
+                                                            item: 'malum:brilliant_obelisk',
+                                                            title: 'Iron Hoe',
                                                             description:
-                                                              "Summon an afrit demon an collect it's essence",
+                                                              'Create an iron hoe',
                                                           },
                                                           {
-                                                            item: "tconstruct:blazing_blood_bucket",
-                                                            title:
-                                                              "Blazing blood",
+                                                            item: 'occultism:chalk_purple',
+                                                            title: 'Iron Hoe',
                                                             description:
-                                                              "Melt some blaze",
-                                                          },
-                                                        ],
-                                                      },
-
-                                                      {
-                                                        item: "extendedcrafting:black_iron_ingot",
-                                                        title: "Black Iron",
-                                                        description:
-                                                          "forge a black iron ingot",
-                                                        children: [
-                                                          {
-                                                            item: "extendedcrafting:basic_table",
-                                                            title:
-                                                              "Basic Table",
-                                                            description:
-                                                              "Craft a basic table",
+                                                              'Create an iron hoe',
                                                             children: [
                                                               {
-                                                                item: "piston",
-                                                                title: "Piston",
-                                                                description:
-                                                                  "Craft a piston",
-                                                              },
-                                                            ],
-                                                          },
-                                                        ],
-                                                      },
-
-                                                      {
-                                                        icon: "blue_skies:everdawn_portal",
-                                                        title: "Everdawn",
-                                                        description:
-                                                          "Construct a portal and enter Everdawn",
-                                                        frame: "goal",
-                                                        criteria: {
-                                                          dimension_change: {
-                                                            trigger:
-                                                              "minecraft:changed_dimension",
-                                                            conditions: {
-                                                              from: "minecraft:overworld",
-                                                              to: "blue_skies:everdawn",
-                                                            },
-                                                          },
-                                                        },
-                                                        children: [
-                                                          {
-                                                            item: "blue_skies:poison_key",
-                                                            title: "Poison Key",
-                                                            count: 4,
-                                                            description:
-                                                              "Collect all 4 poison keys in a poison dungeon",
-                                                            children: [
-                                                              {
-                                                                item: "blue_skies:venom_sac",
+                                                                item: 'occultism:afrit_essence',
                                                                 title:
-                                                                  "Venom Sac",
+                                                                  'Iron Hoe',
                                                                 description:
-                                                                  "Slay the arachnarch and collect a venom sac",
+                                                                  'Create an iron hoe',
+                                                                children: [],
+                                                              },
+                                                              {
+                                                                item: 'tconstruct:blazing_blood_bucket',
+                                                                title: 'Crate',
+                                                                description:
+                                                                  'Upgrade your chest',
                                                                 children: [
                                                                   {
-                                                                    id: "sacrifice",
-                                                                    item: "bloodmagic:daggerofsacrifice",
+                                                                    item: 'minecraft:torch',
                                                                     title:
-                                                                      "Dagger of Sacrifice",
+                                                                      'Crate',
                                                                     description:
-                                                                      "Craft a dagger of sacrifice",
-                                                                    frame:
-                                                                      "challenge",
+                                                                      'Upgrade your chest',
                                                                   },
                                                                 ],
                                                               },
                                                             ],
                                                           },
+                                                        ],
+                                                      },
+                                                      {
+                                                        item: 'minecraft:enchanting_table',
+                                                        title: 'Iron Hoe',
+                                                        description:
+                                                          'Create an iron hoe',
+                                                        children: [],
+                                                      },
+                                                    ],
+                                                  },
+                                                  {
+                                                    item: 'blue_skies:loot_bag_arachnarch',
+                                                    title: 'Iron Hoe',
+                                                    description:
+                                                      'Create an iron hoe',
+                                                    children: [
+                                                      {
+                                                        item: 'malum:raw_soulstone',
+                                                        title: 'Iron Hoe',
+                                                        description:
+                                                          'Create an iron hoe',
+                                                        children: [
                                                           {
-                                                            item: "blue_skies:horizonite_ingot",
-                                                            title: "Horizonite",
+                                                            item: 'malum:corrupted_resonance',
+                                                            title: 'Iron Hoe',
                                                             description:
-                                                              "Forge a horizonite ingot",
-                                                            frame: "goal",
+                                                              'Create an iron hoe',
                                                             children: [
                                                               {
-                                                                item: "bloodmagic:lavacrystal",
+                                                                item: 'twilightforest:twilight_portal_miniature_structure',
                                                                 title:
-                                                                  "Lava Crystal",
+                                                                  'Iron Hoe',
                                                                 description:
-                                                                  "Craft a lava crystal.",
-                                                                frame: "goal",
-                                                                reward:
-                                                                  "im:dimensions/twilight",
+                                                                  'Create an iron hoe',
                                                                 children: [
                                                                   {
-                                                                    icon: "twilightforest:twilight_portal_miniature_structure",
+                                                                    item: 'twilightforest:carminite',
                                                                     title:
-                                                                      "Twilight Forest",
-                                                                    frame:
-                                                                      "goal",
+                                                                      'Carminite',
                                                                     description:
-                                                                      "Ignite a portal with the lava crystal and enter The Twilight Forest",
-                                                                    criteria: {
-                                                                      dimension_change:
-                                                                        {
-                                                                          trigger:
-                                                                            "minecraft:changed_dimension",
-                                                                          conditions:
-                                                                            {
-                                                                              from: "minecraft:overworld",
-                                                                              to: "twilightforest:twilightforest",
-                                                                            },
-                                                                        },
-                                                                    },
+                                                                      'Collect some carminite',
                                                                     children: [
                                                                       {
-                                                                        item: "twilightforest:carminite",
+                                                                        item: 'minecraft:piston',
                                                                         title:
-                                                                          "Carminite",
+                                                                          'Crushing Head',
                                                                         description:
-                                                                          "Collect some carminite",
+                                                                          'Craft a basic crushing head',
                                                                         children:
                                                                           [
                                                                             {
-                                                                              item: "rankine:wood_tier_crushing_head",
+                                                                              item: 'rankine:wood_tier_crushing_head',
                                                                               title:
-                                                                                "Crushing Head",
+                                                                                'Crushing Head',
                                                                               description:
-                                                                                "Craft a basic crushing head",
+                                                                                'Craft a basic crushing head',
                                                                             },
                                                                           ],
                                                                       },
+                                                                    ],
+                                                                  },
+                                                                  {
+                                                                    item: 'ecofriendly:garbage_item_ym',
+                                                                    title:
+                                                                      'Iron Hoe',
+                                                                    description:
+                                                                      'Create an iron hoe',
+                                                                    children: [
                                                                       {
-                                                                        item: "twilightforest:thorn_rose",
+                                                                        item: 'explorerscompass:explorerscompass',
                                                                         title:
-                                                                          "Final Castle",
+                                                                          'Iron Hoe',
                                                                         description:
-                                                                          "Find the final castle",
+                                                                          'Create an iron hoe',
+                                                                        children:
+                                                                          [],
+                                                                      },
+                                                                      {
+                                                                        item: 'create:andesite_alloy',
+                                                                        title:
+                                                                          'Iron Hoe',
+                                                                        description:
+                                                                          'Create an iron hoe',
                                                                         children:
                                                                           [
                                                                             {
-                                                                              item: "explorerscompass:explorerscompass",
+                                                                              item: 'create:millstone',
                                                                               title:
-                                                                                "Explorers Compass",
+                                                                                'Iron Hoe',
                                                                               description:
-                                                                                "Slay the final boss & collect an explorer's compass",
+                                                                                'Create an iron hoe',
+                                                                              children:
+                                                                                [],
                                                                             },
                                                                           ],
                                                                       },
+                                                                    ],
+                                                                  },
+                                                                  {
+                                                                    item: 'twilightforest:ironwood_ingot',
+                                                                    title:
+                                                                      'Iron Hoe',
+                                                                    description:
+                                                                      'Create an iron hoe',
+                                                                    children: [
                                                                       {
-                                                                        item: "twilightforest:maze_map_focus",
+                                                                        item: 'extendedcrafting:black_iron_ingot',
                                                                         title:
-                                                                          "Maze Map Focus",
+                                                                          'Iron Hoe',
                                                                         description:
-                                                                          "Find a maze map focus",
+                                                                          'Create an iron hoe',
                                                                         children:
                                                                           [
                                                                             {
-                                                                              item: "twilightforest:uncrafting_table",
+                                                                              item: 'extendedcrafting:basic_table',
                                                                               title:
-                                                                                "Uncrafting",
+                                                                                'Iron Hoe',
                                                                               description:
-                                                                                "Craft an uncrafting table",
+                                                                                'Create an iron hoe',
+                                                                              children:
+                                                                                [],
                                                                             },
                                                                           ],
                                                                       },
+                                                                    ],
+                                                                  },
+                                                                  {
+                                                                    item: 'minecraft:egg',
+                                                                    title:
+                                                                      'Iron Hoe',
+                                                                    description:
+                                                                      'Create an iron hoe',
+                                                                    children: [
                                                                       {
-                                                                        item: "egg",
+                                                                        item: 'naturesaura:birth_spirit',
                                                                         title:
-                                                                          "Egg",
+                                                                          'Iron Hoe',
                                                                         description:
-                                                                          "Collect an egg from a chicken",
+                                                                          'Create an iron hoe',
                                                                         children:
-                                                                          [
-                                                                            {
-                                                                              item: "naturesaura:birth_spirit",
-                                                                              title:
-                                                                                "Birthing Spirit",
-                                                                              description:
-                                                                                "Collect a birthing spirit by breeding 2 animals",
-                                                                            },
-                                                                          ],
+                                                                          [],
                                                                       },
-
+                                                                    ],
+                                                                  },
+                                                                  {
+                                                                    item: 'twilightforest:fiery_blood',
+                                                                    title:
+                                                                      'Iron Hoe',
+                                                                    description:
+                                                                      'Create an iron hoe',
+                                                                    children: [
                                                                       {
-                                                                        item: "twilightforest:fiery_ingot",
+                                                                        item: 'twilightforest:fiery_ingot',
                                                                         title:
-                                                                          "Fiery Metal",
+                                                                          'Iron Hoe',
                                                                         description:
-                                                                          "Slay a hydra and forge a fiery ingot",
-                                                                        frame:
-                                                                          "goal",
+                                                                          'Create an iron hoe',
                                                                         children:
                                                                           [
                                                                             {
-                                                                              item: "create:cinder_flour",
+                                                                              item: 'create:cinder_flour',
                                                                               title:
-                                                                                "Cinder Flour",
-                                                                              description:
-                                                                                "Grind a fiery ingot into cinder flour",
+                                                                                'Iron Hoe',
                                                                               frame:
-                                                                                "challenge",
-                                                                              reward:
-                                                                                "im:stages/stage_4",
+                                                                                'challenge',
+                                                                              description:
+                                                                                'Create an iron hoe',
+                                                                              children:
+                                                                                [],
                                                                             },
                                                                           ],
                                                                       },
@@ -416,22 +371,60 @@ onEvent("server.datapack.high_priority", (event) => {
                                                             ],
                                                           },
                                                           {
-                                                            item: "blue_skies:blinding_key",
-                                                            title:
-                                                              "Alchemist Tower",
+                                                            item: 'malum:soulwood_totem_base',
+                                                            title: 'Iron Hoe',
                                                             description:
-                                                              "Obtain all 4 blinding keys in an alchemist towers",
-                                                            children: [
-                                                              {
-                                                                item: "enchanting_table",
-                                                                title:
-                                                                  "Enchanting Table",
-                                                                description:
-                                                                  "Find an enchanting table",
-                                                              },
-                                                            ],
+                                                              'Create an iron hoe',
+                                                            children: [],
                                                           },
                                                         ],
+                                                      },
+                                                      {
+                                                        item: 'blue_skies:venom_sac',
+                                                        title: 'Iron Hoe',
+                                                        description:
+                                                          'Create an iron hoe',
+                                                        children: [
+                                                          {
+                                                            item: 'bloodmagic:daggerofsacrifice',
+                                                            frame: 'challenge',
+                                                            title: 'Iron Hoe',
+                                                            description:
+                                                              'Create an iron hoe',
+                                                            children: [],
+                                                          },
+                                                        ],
+                                                      },
+                                                    ],
+                                                  },
+                                                ],
+                                              },
+                                            ],
+                                          },
+                                          {
+                                            item: 'bloodmagic:basemonstersoul',
+                                            title: 'Will',
+                                            description:
+                                              'Extract will using the soul snares',
+                                            frame: 'goal',
+                                            children: [
+                                              {
+                                                item: 'minecraft:soul_sand',
+                                                title: 'Soul Sand',
+                                                description:
+                                                  'Cast some will onto sand',
+                                                children: [
+                                                  {
+                                                    item: 'charcoal_pit:nether_shard',
+                                                    title: 'Wither',
+                                                    description:
+                                                      'Summon & slay the wither',
+                                                    children: [
+                                                      {
+                                                        item: 'chunkloaders:single_chunk_loader',
+                                                        title: 'Chunk Loader',
+                                                        description:
+                                                          'Create your first chunk loader',
                                                       },
                                                     ],
                                                   },
@@ -445,52 +438,55 @@ onEvent("server.datapack.high_priority", (event) => {
                                   },
                                 ],
                               },
+                            ],
+                          },
+                          {
+                            item: 'undergarden:regalium_crystal',
+                            title: 'Regalium Crystal',
+                            description: 'Collect some regalium crystals',
+                          },
+                          {
+                            item: 'undergarden:grongle_log',
+                            title: 'Grongle',
+                            description: 'Collect a grongle log',
+                            children: [
                               {
-                                item: "bloodmagic:incensealtar",
-                                title: "Incense Altar",
-                                description: "Craft an incense altar",
+                                item: 'rankine:sawdust',
+                                title: 'Sawdust',
+                                description: 'Crush the log into sawdust',
+                                children: [
+                                  {
+                                    icon: 'balanced_crates:oak_crate',
+                                    tag: 'im:crates',
+                                    title: 'Crate',
+                                    description: 'Upgrade your chest',
+                                  },
+                                  {
+                                    item: 'paper',
+                                    title: 'Paper',
+                                    description: 'Form a sheet of paper',
+                                  },
+                                ],
                               },
+                            ],
+                          },
+                          {
+                            item: 'undergarden:mogmoss',
+                            title: 'Arcane Ashes',
+                            description:
+                              'Ttransmute the mogmoss into arcane ashes',
+                            children: [
                               {
-                                item: "rankine:blood_obsidian",
-                                title: "Blood Obsidian",
+                                item: 'bloodmagic:arcaneashes',
+                                title: 'Arcane Ashes',
                                 description:
-                                  "Infuse some snowflake obsidian with blood",
-                              },
-                              {
-                                item: "bloodmagic:blankslate",
-                                title: "Blank Slate",
-                                description: "Create a blank slate",
-                                reward: "im:dimensions/undergarden",
-                              },
-                              {
-                                item: "bloodmagic:weakbloodorb",
-                                title: "Weak Blood Orb",
-                                description: "Create a blood orb",
+                                  'Ttransmute the mogmoss into arcane ashes',
                               },
                             ],
                           },
                         ],
                       },
                     ],
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            item: "occultism:crushed_end_stone",
-            title: "Crushed End Stone",
-            description: "Collect & crush some end stone",
-            children: [
-              {
-                item: "occultism:chalk_gold",
-                title: "Golden Chalk",
-                description: "Craft some golden chalk",
-                children: [
-                  {
-                    item: "wither_skeleton_skull",
-                    title: "Wither Skull",
-                    description: "Collect a wither skull from the wild hunt",
                   },
                 ],
               },

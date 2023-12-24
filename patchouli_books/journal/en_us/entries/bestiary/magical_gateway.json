@@ -1,39 +1,39 @@
 {
-    "name": "From the Twilight Forest",
-    "icon": "gateways:gate_pearl{gateway:'gateways:magical_gate'}",
-    "category": "patchouli:bestiary",
-    "sortnum": 3,
-    "secret": true,
-    "advancement": "im:gateways/magical",
-    "pages": [
-        {
-            "type": "patchouli:text",
-            "text": "The following animals have started appearing in the overworld ever since I opened the gateway to The Twilight Forest:"
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:chicken",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:fox",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:rabbit",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:wolf",
-            "scale": 0.75
-        },
-        {
-            "type": "patchouli:entity",
-            "entity": "minecraft:llama",
-            "scale": 0.75
-        }
-    ]
+  "name": "From the Twilight Forest",
+  "icon": "gateways:gate_pearl{gateway:'gateways:magical_gate'}",
+  "category": "patchouli:bestiary",
+  "sortnum": 3,
+  "secret": true,
+  "advancement": "im:gateways/magical",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The following animals have started appearing in the overworld ever since I opened the gateway to The Twilight Forest:"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:chicken",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:fox",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:rabbit",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wolf",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:llama",
+      "scale": 0.75
+    }
+  ]
 }

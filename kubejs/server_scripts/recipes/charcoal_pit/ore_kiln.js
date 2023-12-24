@@ -1,22 +1,22 @@
-onEvent("server.datapack.high_priority", (event) => {
+onEvent('server.datapack.high_priority', event => {
   [
-    "bismuth_brass",
-    "brass",
-    "electrum",
-    "constantan",
-    "invar",
-    "hepatizon",
-  ].forEach((id) => {
+    'bismuth_brass',
+    'brass',
+    'electrum',
+    'constantan',
+    'invar',
+    'hepatizon',
+  ].forEach(id => {
     event.addJson(`charcoal_pit:recipes/ore_kiln_recipes/${id}.json`, {});
   });
 });
 
-onEvent("recipes", (event) => {
+onEvent('recipes', event => {
   new recipes(event)
-    .setType("charcoal_pit:ore_kiln")
-    .setFunction((config) =>
+    .setType('charcoal_pit:ore_kiln')
+    .setFunction(config =>
       event.custom({
-        type: "charcoal_pit:orekiln",
+        type: 'charcoal_pit:orekiln',
         ingredients: config.inputs,
         result: {
           item: config.output,
@@ -29,107 +29,107 @@ onEvent("recipes", (event) => {
         global: true,
         inputs: [
           {
-            item: "minecraft:magma_cream",
+            item: 'minecraft:magma_cream',
           },
           {
-            item: "minecraft:soul_soil",
+            item: 'minecraft:soul_soil',
           },
           {
-            tag: "forge:gravel",
+            tag: 'forge:gravel',
           },
         ],
-        output: "tconstruct:scorched_brick",
+        output: 'tconstruct:scorched_brick',
       },
       {
         global: true,
         inputs: [
           {
-            item: "occultism:burnt_otherstone",
+            item: 'occultism:burnt_otherstone',
           },
           {
-            tag: "forge:sand",
+            tag: 'forge:sand',
           },
           {
-            tag: "forge:gravel",
+            tag: 'forge:gravel',
           },
         ],
-        output: "tconstruct:seared_brick",
+        output: 'tconstruct:seared_brick',
       },
       {
         global: true,
         inputs: [
           {
-            item: "rankine:high_refractory_brick",
+            item: 'rankine:high_refractory_brick',
           },
           {
-            item: "rankine:bone_char",
+            item: 'rankine:bone_char',
           },
           {
-            item: "rankine:galena",
+            item: 'rankine:galena',
           },
           {
-            item: "rankine:galena",
+            item: 'rankine:galena',
           },
         ],
-        output: "rankine:ultra_high_refractory_brick",
+        output: 'rankine:ultra_high_refractory_brick',
       },
       {
         global: true,
         inputs: [
           {
-            item: "rankine:refractory_brick",
+            item: 'rankine:refractory_brick',
           },
           {
-            item: "rankine:bone_char",
+            item: 'rankine:bone_char',
           },
           {
-            item: "rankine:acanthite",
+            item: 'rankine:acanthite',
           },
         ],
-        output: "rankine:high_refractory_brick",
+        output: 'rankine:high_refractory_brick',
       },
       {
         inputs: [
           {
-            item: "rankine:malachite",
+            item: 'rankine:malachite',
           },
         ],
-        output: "minecraft:copper_ingot",
+        output: 'minecraft:copper_ingot',
       },
       {
         inputs: [
           {
-            item: "rankine:cassiterite",
+            item: 'rankine:cassiterite',
           },
         ],
-        output: "rankine:tin_ingot",
+        output: 'rankine:tin_ingot',
       },
       {
         inputs: [
           {
-            item: "rankine:tin_ingot",
+            item: 'rankine:tin_ingot',
           },
           {
-            item: "minecraft:copper_ingot",
+            item: 'minecraft:copper_ingot',
           },
         ],
-        output: "rankine:bronze_ingot",
+        output: 'rankine:bronze_ingot',
       },
       {
         inputs: [
           {
-            item: "rankine:galena",
+            item: 'rankine:galena',
           },
         ],
-        output: "rankine:lead_ingot",
+        output: 'rankine:lead_ingot',
       },
       {
         inputs: [
           {
-            item: "rankine:acanthite",
+            item: 'rankine:acanthite',
           },
         ],
-        output: "rankine:silver_ingot",
+        output: 'rankine:silver_ingot',
       },
     ]);
 });

@@ -1,9 +1,9 @@
-onEvent("recipes", (event) => {
+onEvent('recipes', event => {
   new recipes(event)
-    .setType("hexerei:dipper")
-    .setFunction((config) =>
+    .setType('hexerei:dipper')
+    .setFunction(config =>
       event.custom({
-        type: "hexerei:dipper",
+        type: 'hexerei:dipper',
         liquid: {
           fluid: config.input_fluid,
         },
@@ -23,29 +23,29 @@ onEvent("recipes", (event) => {
     )
     .modifyOutputs([
       {
-        output: "hexerei:candle",
-        input: "paragon_textiles:silk",
-        input_fluid: "hexerei:tallow_fluid",
+        output: 'hexerei:candle',
+        input: 'paragon_textiles:silk',
+        input_fluid: 'hexerei:tallow_fluid',
         fluid_consumed: 250,
       },
       {
-        output: "rankine:altimeter",
-        input: "depthmeter:depthmeter",
-        input_fluid: "kubejs:molten_sterling_silver",
+        output: 'rankine:altimeter',
+        input: 'depthmeter:depthmeter',
+        input_fluid: 'kubejs:molten_sterling_silver',
         fluid_consumed: 1000,
       },
     ])
     .add([
       {
-        output: "blue_skies:turquoise_stone",
-        input: "minecraft:stone",
-        input_fluid: "kubejs:freezing_sap",
+        output: 'blue_skies:turquoise_stone',
+        input: 'minecraft:stone',
+        input_fluid: 'kubejs:freezing_sap',
         fluid_consumed: 250,
       },
       {
-        output: "blue_skies:bluebright_sapling",
-        input: "occultism:otherworld_sapling",
-        input_fluid: "kubejs:molten_sterling_silver",
+        output: 'blue_skies:bluebright_sapling',
+        input: 'occultism:otherworld_sapling',
+        input_fluid: 'kubejs:molten_sterling_silver',
         fluid_consumed: 1000,
       },
     ]);

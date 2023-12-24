@@ -1,0 +1,53 @@
+{
+  "name": "From Blueleaf",
+  "icon": "gateways:gate_pearl{gateway:'gateways:sooty_gate'}",
+  "category": "patchouli:bestiary",
+  "sortnum": 5,
+  "secret": true,
+  "advancement": "im:gateways/sooty",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The following animals have started appearing in the overworld ever since I opened the gateway to Blueleaf:"
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:horse",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:villager",
+      "name": "Villager",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:wandering_trader",
+      "scale": 0.75
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:trader_llama",
+      "scale": 0.75
+    },
+
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:pillager",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:vindicator",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:ravager",
+      "scale": 0.75
+    }
+  ]
+}

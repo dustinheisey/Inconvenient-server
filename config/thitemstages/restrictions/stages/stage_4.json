@@ -1,18 +1,18 @@
 {
-    "Restriction Data": {
-        "stage": "stage_4",
-        "tagList": ["im:stage_4"]
-    },
-    "Settings": {
-        "advancedTooltips": "ADVANCED",
-        "itemTitle": "Unknown Item",
-        "pickupDelay": 15,
-        "hideInJEI": true,
-        "canPickup": false,
-        "containerListWhitelist": false,
-        "checkPlayerInventory": false,
-        "checkPlayerEquipment": true,
-        "usableItems": false,
-        "usableBlocks": false
-    }
+  "Restriction Data": {
+    "stage": "stage_4",
+    "tagList": ["im:stage_4"]
+  },
+  "Settings": {
+    "advancedTooltips": "ADVANCED",
+    "itemTitle": "Unknown Item",
+    "pickupDelay": 15,
+    "hideInJEI": true,
+    "canPickup": false,
+    "containerListWhitelist": false,
+    "checkPlayerInventory": false,
+    "checkPlayerEquipment": true,
+    "usableItems": false,
+    "usableBlocks": false
+  }
 }

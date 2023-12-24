@@ -37,7 +37,7 @@ global["unifyexcludegen"] = [
 
 // Add oredictionary tags here to unify (or use javascript to generate it!). These are also higher priority than tagGen.
 // Non-existant tags will be ignored.
-let tags = new Set([
+let unifyTags = new Set([
     "forge:slag", "forge:silicon", "forge:coal_coke", "forge:storage_blocks/coal_coke", "forge:salt", "forge:storage_blocks/salt"
 ])
 
@@ -71,7 +71,7 @@ let customtags = [
 
         for (let type of ts) {
             for (let material of ms) {
-                tags.add("forge:" + type + (material.length > 0 ? "/" + material : ""))
+                unifyTags.add("forge:" + type + (material.length > 0 ? "/" + material : ""))
             }
         }
     }
@@ -128,7 +128,7 @@ let e_tags_items = event => {
             }
 
             // Add new tag into tags to unify
-            tags.add(root + i)
+            unifyTags.add(root + i)
             ++i
         }
     }
@@ -148,7 +148,7 @@ let e_recipes = event => {
         // Maps tags to their priority item
         let tagPriorityItems = {}
 
-        for (let tag of tags) {
+        for (let tag of unifyTags) {
             let itag = tryTag(tag)
             if (itag) {
                 // Only load tags with 2 or more items
